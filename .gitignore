@@ -1,0 +1,6 @@
+﻿/downloads/
+/.venv/
+__pycache__/
+.env
+*.bin
+*.dump
