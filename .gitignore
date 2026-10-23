@@ -1,0 +1,10 @@
+/.venv/
+/downloads/
+__pycache__/
+*.bin
+*.dump
+*.key
+*.fernet
+.env
+*.local.sb3
+secrets*.json

@@ -1,0 +1,24 @@
+{
+  "source_file": "4.4.2APPControlCar2(Final program).sb3",
+  "source_sha256": "54a97fa9bc9de649e9b9f14a2b68b889f1acee1ddcef781499f1e0642499d1b4",
+  "output_file": "QD001_V2_STA_Completo.sb3",
+  "output_sha256": "d9f63fcb922e1fbf4623be6a9ea5c808f09bc3202dbddc839bc44270f639309b",
+  "source_blocks": 434,
+  "output_blocks": 441,
+  "network": "STA; AP cerrado; espera conexion y muestra IP a 115200",
+  "credentials": "Solo marcadores, sin datos reales",
+  "preserved_modes": [
+    "avoidance",
+    "roundTrack",
+    "led",
+    "follow",
+    "8track",
+    "move",
+    "buzzer"
+  ],
+  "unrelated_original_blocks_unchanged": true,
+  "assets_unchanged": true,
+  "hardware_uploaded": false,
+  "hardware_tested": false,
+  "note": "Los GPIO y la logica del fabricante se conservan. Preparacion de archivo, no prueba del robot."
+}
