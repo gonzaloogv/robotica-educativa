@@ -39,6 +39,7 @@ La [revisión inicial del informe](docs/revision-informe.md) conserva el diagnó
 | --- | --- |
 | [Estado de continuidad del 23/10/2026](docs/estado_sesion_2026-10-23.md) | Comprobaciones, firmware estable informado y comparación pendiente. |
 | [MicroPython sin robot](docs/continuidad_micropython_sin_robot.md) | Lógica y pruebas en PC; integración física pendiente. |
+| [Variante completa ACECode en STA](docs/acecode_sta.md) | Proyecto de red local preparado en una rama separada, sin instalarlo en el robot. |
 | [Preparación de MicroPython](PREPARACION_MICROPYTHON.md) | Descarga realizada, integridad local y límites. |
 | [Diagnóstico de hardware](docs/diagnostico_hardware.md) | Chip, flash, controlador USB y alcance de las lecturas. |
 | [Respaldo y recuperación](docs/procedimiento_respaldo_y_restauracion.md) | Diferencia entre imagen anterior y estado estable; verificación y límites. |

@@ -28,7 +28,7 @@ D:/ACEBOTT-Backups/Alumnos/QD001-20261023-091536/
 
 Cada carpeta conserva las dos lecturas, manifiesto y registros. C: y D: corresponden a discos distintos según Windows, en la misma computadora. Se restringieron permisos al usuario y SYSTEM y se marcaron binarios como solo lectura. Los permisos NTFS no equivalen a cifrado ni impiden que un administrador tome posesión.
 
-Las imágenes completas pueden contener configuración y credenciales. Los originales sin cifrar y las claves no se publican. La rama técnica local `trabajo/micropython-respaldo` contiene una copia cifrada Fernet y herramientas de verificación/extracción; no se incluyen en esta rama documental ni se afirma que se hayan subido a GitHub. `clave-respaldo-repo.key` se conserva fuera de Git en las carpetas privadas.
+Las imágenes completas pueden contener configuración y credenciales. Los originales sin cifrar y las claves no se publican. La rama `trabajo/micropython-respaldo` contiene una copia cifrada Fernet y herramientas de verificación/extracción, que no se incluyen en esta rama documental. `clave-respaldo-repo.key` se conserva fuera de Git en las carpetas privadas y es necesaria para descifrar. Comprobar la disponibilidad de esa rama al clonar; no confundir la publicación de documentos con la entrega de una clave privada.
 
 Para continuar en otra PC, guardar además una copia privada externa con su manifiesto y, si se transporta la imagen cifrada, su clave. Clonar esta documentación no transporta los respaldos ni permite restaurar por sí solo la placa.
 

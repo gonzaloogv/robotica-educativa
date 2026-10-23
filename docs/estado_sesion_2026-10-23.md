@@ -9,7 +9,7 @@ Este documento permite continuar desde otra computadora y separa lo comprobado d
 - Instrucción vigente: «sin modificaciones en el robot». Esta etapa comprende documentación y archivos, sin abrir COM6.
 - El agente no ejecutó borrados ni escrituras de flash, no instaló MicroPython y no envió movimientos. La carga del ejemplo de app se detuvo antes de ejecutarse.
 - El respaldo disponible corresponde al estado ANTERIOR a la restauración. No es una copia del firmware estable actual ni una imagen acreditada de fábrica.
-- Los documentos se publican en `documentacion`. La preparación técnica y la imagen cifrada anterior están en la rama técnica local `trabajo/micropython-respaldo`; no se incluyen binarios ni claves en esta publicación documental.
+- Los documentos se publican en `documentacion`. La preparación técnica y la imagen cifrada anterior están en `trabajo/micropython-respaldo`; no se incluyen binarios ni claves en esta rama documental. La variante del programa completo ACECode en STA se prepara en `trabajo/acecode-sta`, sin cargarla en el robot.
 
 ## Comprobaciones anteriores a la restauración
 
