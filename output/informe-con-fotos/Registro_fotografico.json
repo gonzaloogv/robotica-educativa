@@ -1,0 +1,97 @@
+{
+  "version_base": "output\\informe-corregido\\Informe_Robotica_Educativa_corregido.docx",
+  "sha256_base": "0956da1c5724b32a05fbd3643147d8752cc767c42f4a01a2c9d9289a918b18bf",
+  "fecha_actualizacion_documental": "2026-10-20",
+  "criterio_orden": "Estado de armado visible; no orden cronológico acreditado.",
+  "limite_evidencia": "Las imágenes no acreditan funcionamiento, autonomía, mediciones ni fechas de toma.",
+  "fotografias": [
+    {
+      "figura": 1,
+      "titulo": "Preparación de las placas",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at 20.25.13.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-01.jpeg",
+      "sha256": "bd1098ad5ad224e178c7fc781be77cc6846b8c8202aecfa5bb6aa29301e0509f",
+      "ancho_px": 720,
+      "alto_px": 1280,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 2,
+      "titulo": "Preparación de la base",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-02.jpeg",
+      "sha256": "c36ec5b846aa948b8e5d79670797069181fe1895e8b33533c0b0a45562018eec",
+      "ancho_px": 720,
+      "alto_px": 1280,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 3,
+      "titulo": "Montaje inicial de los motores",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-03.jpeg",
+      "sha256": "d446c61856a9966c4986e345e3fe1b072c1276357f2ad7622655217ad22b378a",
+      "ancho_px": 720,
+      "alto_px": 1280,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 4,
+      "titulo": "Cuatro motores montados",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at 20.25.14.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-04.jpeg",
+      "sha256": "94deb711768561ab2002534c98e398f8d8904d1e07aedee5b26afcd0b232fd47",
+      "ancho_px": 720,
+      "alto_px": 1280,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 5,
+      "titulo": "Ensamble de la placa superior",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 a.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-05.jpeg",
+      "sha256": "d24a2b6e8acc68b662ba01a09de92c7b4aca5da689a1113da7f1544f6bce205a",
+      "ancho_px": 720,
+      "alto_px": 1280,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 6,
+      "titulo": "Vista general del prototipo ensamblado",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at 20.23.50.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-06.jpeg",
+      "sha256": "b4fd65108c588aec35555e9626e52ee87e0c80df2fdfb687a639ba0147044605",
+      "ancho_px": 1600,
+      "alto_px": 1200,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 7,
+      "titulo": "Detalle del montaje sin ruedas",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at 20.24.11.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-07.jpeg",
+      "sha256": "eaf92af4e7dd9e5525bd9b290916a7c2854fb5e387ee0b546121896e346c785a",
+      "ancho_px": 1280,
+      "alto_px": 960,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    },
+    {
+      "figura": 8,
+      "titulo": "Electrónica y portabaterías",
+      "fuente_original": "C:\\Users\\Gonzalo\\Downloads\\WhatsApp Image 2026-10-20 at 20.24.10.jpeg",
+      "archivo_preservado": "fotografias-originales\\foto-08.jpeg",
+      "sha256": "ea8c43e1870fd302fa9379bab4d8c6a2ced8ccbacb62570a72198ac3f8fabfb0",
+      "ancho_px": 1280,
+      "alto_px": 960,
+      "fecha_toma_exif": null,
+      "fecha_toma_documentada": false
+    }
+  ]
+}

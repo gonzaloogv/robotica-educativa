@@ -1,0 +1,405 @@
+{
+  "status": "passed",
+  "visual_inspection": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "resolution": "1414 x 2000 pixels",
+    "method": "Inspección individual de las 18 páginas renderizadas; fórmulas, tablas, márgenes, numeración y bibliografía legibles"
+  },
+  "pdf_pages": 18,
+  "development_and_bibliography_pages": 14,
+  "annex_pages": 2,
+  "original_sources_unchanged": [
+    {
+      "name": "CAMBIOS_INFORME_ROBOTICA_2026.md",
+      "sha256": "d1d85ab0e985e7a4b52c7c6f21077d69005355dba7509fe104508c63f27be567"
+    },
+    {
+      "name": "CONTEXTO_PARA_CODEX_ACEBOTT_QD001.md",
+      "sha256": "e091361c036cc0425fa634bf04a305c3f9c92881aafa01cd16651f5b281af1e9"
+    },
+    {
+      "name": "Informe Robótica Educativa.pdf",
+      "sha256": "d314e1f378bb35d245c4d6f533e86691818e7ad9f917cbc2d04326956f837840"
+    },
+    {
+      "name": "PLAN_DE_CAMBIOS_INFORME_ROBOTICA.pdf",
+      "sha256": "b4a9b94793e713bcc9460ac9525199f19e377b8c204b607b5bf3d420daff6cbc"
+    },
+    {
+      "name": "ROBOTICA - PAUTAS DE ORGANIZACIÓN 2026.pdf",
+      "sha256": "ef6468a855cd01e7007659a001f68e255edbe5c01f792b1250565a99f46023ed"
+    },
+    {
+      "name": "Rúbrica Proyecto IEN 2026.pdf",
+      "sha256": "26bb7fffe514ca16f34836f236703440856edb3eb5a62d824123b26f0a40cd57"
+    }
+  ],
+  "native_word_equations": 7,
+  "tables": 5,
+  "contents_links_checked": 25,
+  "bibliography_links_checked": 13,
+  "bibliography_targets": [
+    {
+      "page": 15,
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366i.htm"
+    },
+    {
+      "page": 15,
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm"
+    },
+    {
+      "page": 15,
+      "url": "https://www.nist.gov/publications/nistsematech-engineering-statistics-handbook-chapter-2-measurement-process"
+    },
+    {
+      "page": 15,
+      "url": "https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf"
+    },
+    {
+      "page": 15,
+      "url": "https://www.redalyc.org/journal/5706/570661491004/570661491004.pdf"
+    },
+    {
+      "page": 15,
+      "url": "https://backend.educ.ar/refactor_resource/get-attachment/162"
+    },
+    {
+      "page": 16,
+      "url": "https://www.researchgate.net/publication/383448334_Analysis_of_the_Measurement_Error_From_a_Low-Cost_Ultrasonic_Sensor/fulltext/66cde986bd201736675be557/Analysis-of-the-Measurement-Error-From-a-Low-Cost-Ultrasonic-Sensor.pdf"
+    },
+    {
+      "page": 16,
+      "url": "https://arxiv.org/pdf/2506.06314"
+    },
+    {
+      "page": 16,
+      "url": "https://www-users.york.ac.uk/~mjf5/roach/Datasheets/HCSR04_Manual.pdf"
+    },
+    {
+      "page": 16,
+      "url": "https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/"
+    },
+    {
+      "page": 16,
+      "url": "https://docs.micropython.org/en/latest/library/machine.html"
+    },
+    {
+      "page": 16,
+      "url": "https://docs.micropython.org/en/latest/esp32/quickref.html"
+    },
+    {
+      "page": 16,
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm"
+    }
+  ],
+  "page_geometry": [
+    {
+      "page": 1,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 510.7,
+        "top": 72.63,
+        "bottom": 648.58
+      },
+      "footer": ""
+    },
+    {
+      "page": 2,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.52,
+        "top": 72.95,
+        "bottom": 495.98
+      },
+      "footer": ""
+    },
+    {
+      "page": 3,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.11,
+        "top": 73.95,
+        "bottom": 637.08
+      },
+      "footer": "3"
+    },
+    {
+      "page": 4,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.06,
+        "top": 73.95,
+        "bottom": 693.93
+      },
+      "footer": "4"
+    },
+    {
+      "page": 5,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.02,
+        "top": 73.95,
+        "bottom": 700.38
+      },
+      "footer": "5"
+    },
+    {
+      "page": 6,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.08,
+        "top": 73.95,
+        "bottom": 658.63
+      },
+      "footer": "6"
+    },
+    {
+      "page": 7,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.2,
+        "top": 73.95,
+        "bottom": 721.78
+      },
+      "footer": "7"
+    },
+    {
+      "page": 8,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.01,
+        "top": 73.95,
+        "bottom": 770.03
+      },
+      "footer": "8"
+    },
+    {
+      "page": 9,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.0,
+        "top": 73.95,
+        "bottom": 716.43
+      },
+      "footer": "9"
+    },
+    {
+      "page": 10,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.01,
+        "top": 73.95,
+        "bottom": 736.83
+      },
+      "footer": "10"
+    },
+    {
+      "page": 11,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.0,
+        "top": 73.95,
+        "bottom": 734.73
+      },
+      "footer": "11"
+    },
+    {
+      "page": 12,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 523.96,
+        "top": 72.63,
+        "bottom": 731.88
+      },
+      "footer": "12"
+    },
+    {
+      "page": 13,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 523.96,
+        "top": 73.95,
+        "bottom": 748.38
+      },
+      "footer": "13"
+    },
+    {
+      "page": 14,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.02,
+        "top": 73.95,
+        "bottom": 444.78
+      },
+      "footer": "14"
+    },
+    {
+      "page": 15,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.13,
+        "top": 73.95,
+        "bottom": 634.68
+      },
+      "footer": "15"
+    },
+    {
+      "page": 16,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 524.09,
+        "top": 72.63,
+        "bottom": 628.73
+      },
+      "footer": "16"
+    },
+    {
+      "page": 17,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 523.96,
+        "top": 73.95,
+        "bottom": 675.03
+      },
+      "footer": "17"
+    },
+    {
+      "page": 18,
+      "body_bounds_pt": {
+        "left": 70.95,
+        "right": 523.94,
+        "top": 73.95,
+        "bottom": 549.48
+      },
+      "footer": "18"
+    }
+  ],
+  "utf8_support_documents": "valid",
+  "software_project_checks": "Typecheck, lint, tests y build no aplican a esta corrección documental; no hay código del robot implementado.",
+  "hardware_operations": "none",
+  "deliverables": [
+    {
+      "name": "Auditoria_bibliografica.md",
+      "bytes": 18543,
+      "sha256": "de1e6a8a2daf12a4696ba4a37987fc5cfd650050646d51d47ca9f112f0f475ad"
+    },
+    {
+      "name": "Evidencia_enlaces.json",
+      "bytes": 20326,
+      "sha256": "026f54415db21d781f48c6773505d0acfca0cbc3134d3be5fdc346fb53a6b495"
+    },
+    {
+      "name": "Informacion_experimental_pendiente.md",
+      "bytes": 4441,
+      "sha256": "32e0e926443055e82b643792f51dcafa93e7051db9585e3c95a62818d757a0c3"
+    },
+    {
+      "name": "Informe_Robotica_Educativa_corregido.docx",
+      "bytes": 52118,
+      "sha256": "0956da1c5724b32a05fbd3643147d8752cc767c42f4a01a2c9d9289a918b18bf"
+    },
+    {
+      "name": "Informe_Robotica_Educativa_corregido.pdf",
+      "bytes": 274010,
+      "sha256": "b5637456e30b79cc53cb0cb3b7e2b6d059cd983cd5aaca21d4222fafc17a94b8"
+    },
+    {
+      "name": "Registro_de_cambios.md",
+      "bytes": 5847,
+      "sha256": "2e87c0bbb3a2eb60ac38079f9b3939da52d68aeeb7ffab5ea96f8c36fb5b1018"
+    }
+  ],
+  "page_image_sha256": [
+    {
+      "page": 1,
+      "sha256": "5309d9cbb04b412149d7409f568c17932e8a93d8cf8450c7cfbe54d32cb2f12d"
+    },
+    {
+      "page": 2,
+      "sha256": "8a733052f1941f9bb7f1d600ce3a3f6c0bbc4df9784a1f55f888e47db4802ae2"
+    },
+    {
+      "page": 3,
+      "sha256": "8a58cbd1b3819df09907e830ceea45cbe6bab0d7e8550848dbf1c4b31cafda31"
+    },
+    {
+      "page": 4,
+      "sha256": "4f5c793d2348f953629019ed146812859ff86f640ccffd61d2badd3e924d2914"
+    },
+    {
+      "page": 5,
+      "sha256": "642c96eb49d1c52b547e3aeffd35c266f6eb51b1930bc3e281bc9330a44a1b36"
+    },
+    {
+      "page": 6,
+      "sha256": "7ce22329bff16a11321298ca5a154f47a3fc82c6c582fcbd2c847c72db97240a"
+    },
+    {
+      "page": 7,
+      "sha256": "f3d92a4c2b0d30da807d8753634beb2ca6fc3e9037feec1fe9abafc0abc51e11"
+    },
+    {
+      "page": 8,
+      "sha256": "e57f7327b71450ab34a6f95d0fc9ebdd5d729c8216c9ccf0a6814a100c4819f6"
+    },
+    {
+      "page": 9,
+      "sha256": "26b7925b80e9c0170ab7ce44558fb55e4437448627c74a954dd718bf3cfb728a"
+    },
+    {
+      "page": 10,
+      "sha256": "69bf497e5d33fd297d348591ccd06d55375f1910b5fdc835ba267c63ac0275d0"
+    },
+    {
+      "page": 11,
+      "sha256": "a48680f9425ff3e371c91eead703d244f7d4871d1b78147ed00a1ff63914aa08"
+    },
+    {
+      "page": 12,
+      "sha256": "fd737af903416ac82e11f3b938c23c2b265df51f6256b6694c45b52ca9ffff60"
+    },
+    {
+      "page": 13,
+      "sha256": "a28db558c02fa688074072816869cf670a64f81b4f0a08c23037429d86d4abc8"
+    },
+    {
+      "page": 14,
+      "sha256": "06f712ac6df5ad1d1db03d83b7339ba6ad42a5c4024f2ec492066b4463264741"
+    },
+    {
+      "page": 15,
+      "sha256": "42b55e434986cfb10f5a4a1ce4c67c528d286ada0d58f8dde4ca91fc38d3155a"
+    },
+    {
+      "page": 16,
+      "sha256": "72a1b79eb0c3d5db51e9b0b4f799f15f4e4d378e0e4b004308eaff9cdfec6230"
+    },
+    {
+      "page": 17,
+      "sha256": "092b4c9a9d6fbe42fadf63460197f92301c96a2b7f1fc32b588ff790df821b90"
+    },
+    {
+      "page": 18,
+      "sha256": "489261d2598c9e1d9c100ce302b07cc74a1934b4ad30581b0f441f96d09542f0"
+    }
+  ]
+}

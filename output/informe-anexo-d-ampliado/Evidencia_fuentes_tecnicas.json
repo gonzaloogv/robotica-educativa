@@ -1,0 +1,190 @@
+{
+  "consultation_date": "2026-10-20",
+  "method": "Lectura de fichas primarias y manuales oficiales; cotejo visual de Product List V2 con la tabla original.",
+  "resources": [
+    {
+      "id": "D_qd001",
+      "url": "https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/",
+      "final_url": "https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/",
+      "status": 200,
+      "title": "QD001 ESP32 Smart Car Kit – Tutorials, Setup & Downloads | ACEBOTT Wiki",
+      "scrape_id": "01a15bb9-f774-726b-8116-6e2765a06101",
+      "extraction_sha256": "0b84335f01f97e1f3bf9d7860f988d15d6b8be117cb83fa7b39fb37f941cde04",
+      "chars": 11900
+    },
+    {
+      "id": "D_tutorials",
+      "url": "https://acebott.com/tutorial/",
+      "final_url": "https://acebott.com/tutorial/",
+      "status": 200,
+      "title": "ACEBOTT Tutorial Downloads for STEM Kits & Robot Projects",
+      "scrape_id": "01a15bbb-aa1a-738d-9bf0-36c749375918",
+      "extraction_sha256": "70b9950c7adb17651c586db982f41107eef9dc609a9766f97482dc700f1a73fd",
+      "chars": 16437
+    },
+    {
+      "id": "D_manual-v2-folder",
+      "url": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&dl=0",
+      "final_url": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&e=1&dl=0",
+      "status": 200,
+      "title": "ACEBOTT QD001 Smart Car Starter Kit  V2 - Dropbox",
+      "scrape_id": "01a15bbd-8ae3-760b-8064-bc09c10ef226",
+      "extraction_sha256": "42f06ee594668afd042af489055716cd81e6a8463403ebc900476adc8865aeeb",
+      "chars": 1098
+    },
+    {
+      "id": "D_manual-v1-folder",
+      "url": "https://www.dropbox.com/scl/fo/892ydm4qyqw7e10oup40h/AHYlVVPFq4_BCH0yVdJyfzI?rlkey=ez14m5d6335al7pwzup7kit3q&st=kpmvmfwc&dl=0",
+      "final_url": "https://www.dropbox.com/scl/fo/892ydm4qyqw7e10oup40h/AHYlVVPFq4_BCH0yVdJyfzI?rlkey=ez14m5d6335al7pwzup7kit3q&st=kpmvmfwc&e=1&dl=0",
+      "status": 200,
+      "title": "ACEBOTT QD001 Smart Car Starter Kit V1.5 - Dropbox",
+      "scrape_id": "01a15bbd-8707-71f4-81fb-cb60d686ba8c",
+      "extraction_sha256": "0e9e79f6d846bcbef10115e3bc6212add4ed2800225fc5eea7936a781736b97d",
+      "chars": 1451
+    },
+    {
+      "id": "D_controller",
+      "url": "https://acebott.com/docs/qa007-qa008-qa009-esp32-max-v1-0-controller-board/",
+      "final_url": "https://acebott.com/docs/qa007-qa008-qa009-esp32-max-v1-0-controller-board/",
+      "status": 200,
+      "title": "QA007/QA008/QA009 ESP32 Max V1.0 Controller Board – ACEBOTT",
+      "scrape_id": "01a15bba-a253-7589-aa77-65fbc21aba3c",
+      "extraction_sha256": "fce03a18cb80c6dfc93c2f2a87ceb145c4aafcd0e191942688175f864f91f0b6",
+      "chars": 14486
+    },
+    {
+      "id": "D_shield",
+      "url": "https://acebott.com/docs/qa052-esp32-car-shield-v1-0/",
+      "final_url": "https://acebott.com/docs/qa052-esp32-car-shield-v1-0/",
+      "status": 200,
+      "title": "QA052 ESP32 Car Shield V1.0 – ACEBOTT",
+      "scrape_id": "01a15bba-a250-75c1-867e-3996260dc5fd",
+      "extraction_sha256": "3fc13618e62ed138386cc47c771d7de9bbf980f792c9b212d98f2af5d94cc789",
+      "chars": 9535
+    },
+    {
+      "id": "D_shield-shop-v2",
+      "url": "https://shop.acebott.com/products/acebott-qa052-esp32-car-shield-v1-0",
+      "final_url": "https://shop.acebott.com/products/acebott-qa052-esp32-car-shield-v1-0",
+      "status": 200,
+      "title": "\n\tACEBOTT QA052 ESP32 Car Shield V2.0\n\t",
+      "scrape_id": "01a15bbb-cd88-71c1-af3c-85bc8531f9df",
+      "extraction_sha256": "0fb9c253dcc4d2113ea4e809362fa4ea6591f52a7d40b3167abcb22ab7bef571",
+      "chars": 12178
+    },
+    {
+      "id": "D_ultrasonic",
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB042%20Ultrasonic%20Sensor.html",
+      "final_url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB042%20Ultrasonic%20Sensor.html",
+      "status": 200,
+      "title": "QB042/QB093 Ultrasonic Sensor — ACEBOTT 2.2.2 documentation",
+      "scrape_id": "01a15bbb-b349-771e-9f71-600efced9a5b",
+      "extraction_sha256": "14fadcbd807a0c599c6baca907e2b254bd02723024f4428b13b18a3e3020879b",
+      "chars": 3389
+    },
+    {
+      "id": "D_servo",
+      "url": "https://acebott.com/docs/qb054-servo-sg90-9g-module-180-degree/",
+      "final_url": "https://acebott.com/docs/qb054-servo-sg90-9g-module-180-degree/",
+      "status": 200,
+      "title": "QB054 Servo SG90 9G Module 180 Degree – ACEBOTT",
+      "scrape_id": "01a15bbb-afc8-7464-b358-b5ff31c6c9f7",
+      "extraction_sha256": "5d656187d7f726d304f5c4e9b119427de321c0ad7f47700d4ad5a9a2e329f648",
+      "chars": 8900
+    },
+    {
+      "id": "D_trace",
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB060%20Trace%20Sensor.html",
+      "final_url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB060%20Trace%20Sensor.html",
+      "status": 200,
+      "title": "QB060/QB080 Trace Sensor — ACEBOTT 2.2.2 documentation",
+      "scrape_id": "01a15bbb-bc15-7699-bf3f-faf13d4d312b",
+      "extraction_sha256": "da39918f78279b4e286817bf94cc3150b67ce2d0b6fc301dc828604af5f6f560",
+      "chars": 3681
+    },
+    {
+      "id": "D_led",
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB007%20LED%20Module.html",
+      "final_url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB007%20LED%20Module.html",
+      "status": 200,
+      "title": "QB007/QB081 LED Module — ACEBOTT 2.2.2 documentation",
+      "scrape_id": "01a15bbb-be3e-7128-9fe4-12df3252889d",
+      "extraction_sha256": "a0806abb7f1583786b54181ce2075ac9932977b46373ae1265525fdacd6e2cdb",
+      "chars": 2475
+    },
+    {
+      "id": "D_buzzer",
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB010%20P-Buzzer%20Module.html",
+      "final_url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB010%20P-Buzzer%20Module.html",
+      "status": 200,
+      "title": "QB010/QB077 P-Buzzer Module — ACEBOTT 2.2.2 documentation",
+      "scrape_id": "01a15bbb-c3ac-732c-89f8-97d570140cdd",
+      "extraction_sha256": "0cac1e3194ae8109837e507c09d043c1bbd6f78d36cc830112f104edea895fdd",
+      "chars": 2711
+    },
+    {
+      "id": "D_ir",
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB001%2BQB053%20Infrared%20Remote%20Control%20Module.html",
+      "final_url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB001%2BQB053%20Infrared%20Remote%20Control%20Module.html",
+      "status": 200,
+      "title": "QB001/QB073+QB053 Infrared Remote Control Module — ACEBOTT 2.2.2 documentation",
+      "scrape_id": "01a15bbb-c64e-7212-bc91-2d875a17bb58",
+      "extraction_sha256": "34402d7f270890652f1b306257cb178c3f863eaa1ca534f1b49924adeb8398ff",
+      "chars": 4386
+    },
+    {
+      "id": "D_l298",
+      "url": "https://www.st.com/resource/en/datasheet/l298.pdf",
+      "final_url": "https://www.st.com/resource/en/datasheet/l298.pdf",
+      "status": 200,
+      "title": "Datasheet - L298 - Dual full-bridge driver",
+      "scrape_id": "01a15bc3-5aa6-734d-933b-757ba8f63db0",
+      "extraction_sha256": "172f4c502aaa06b9e17f5a961e3a7873f722d5882262bb4b6fd883dd916e500f",
+      "chars": 27033
+    },
+    {
+      "id": "D_rp2",
+      "url": "https://docs.micropython.org/en/latest/rp2/quickref.html",
+      "final_url": "https://docs.micropython.org/en/latest/rp2/quickref.html",
+      "status": 200,
+      "title": "Quick reference for the RP2 — MicroPython latest documentation",
+      "scrape_id": "01a15bc3-5e73-71d8-a767-67bf2585fb63",
+      "extraction_sha256": "b5719926abcd330ecfa0d5f37e841668fa4bc49f0faa15a73e2c2ceadf187b1f",
+      "chars": 22525
+    },
+    {
+      "id": "D_pyfirmata",
+      "url": "https://github.com/tino/pyFirmata",
+      "final_url": "https://github.com/tino/pyFirmata",
+      "status": 200,
+      "title": "GitHub - tino/pyFirmata: Python interface for the Firmata (http://firmata.org/) protocol. It is compliant with Firmata 2.1. Any help with updating to 2.2 is welcome. The Capability Query is implemented, but the Pin State Query feature not yet. · GitHub",
+      "scrape_id": "01a15bc3-6322-76bc-997b-c79ab39f1fad",
+      "extraction_sha256": "347027c88de223ca03fdf752579320d00b7f8ae85cb29a2d3d9be7aa066a5e8c",
+      "chars": 8595
+    },
+    {
+      "id": "D_upgrades",
+      "url": "https://acebott.com/stem-blogs/qd001-smart-car-starter-kit-v2-0-upgrades/",
+      "final_url": "https://acebott.com/stem-blogs/qd001-smart-car-starter-kit-v2-0-upgrades/",
+      "status": 200,
+      "title": "What’s New in QD001 V2.0: Teaching Experience Upgrades Explained",
+      "scrape_id": "01a15bbb-ca9e-713e-a9cb-c080dd0ed66d",
+      "extraction_sha256": "ac82404c2a8006ebac887d322e6192d11e76181dbab9baa097c4cc702586261a",
+      "chars": 14364
+    }
+  ],
+  "official_manual": {
+    "path": "fuentes-tecnicas/ACEBOTT_QD001_V2_Manual_de_montaje.pdf",
+    "sha256": "5a31458f20dd5e7de648eb1aca10cf02598c279e9ff7f0760cd872a2f2a241e6",
+    "archive_member": "English/2.Assembly Manual/1.QD001 Assembly Manual.pdf",
+    "pdf_pages": 24,
+    "product_list_pdf_page": 4,
+    "access": "Paquete V2 enlazado por ACEBOTT; lectura parcial HTTP 206 del ZIP oficial, extracción exclusiva de documentos PDF."
+  },
+  "official_servo_library": {
+    "archive": "English.zip de QD001 V1.5, enlazado por el portal oficial para Car Shield V1.0",
+    "archive_member": "English/Python/4. Install the libraries/libs/servo.py",
+    "sha256": "c416569e37ea757db24a95ad50dea3d514d8eca5bb2b22270a1b54b5b61fc185",
+    "verified_statement": "attach configura self.pwm.freq(50); conversión de ángulo a pulso en writeMicroseconds. Leído, no ejecutado."
+  }
+}

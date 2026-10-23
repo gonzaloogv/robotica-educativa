@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "componente": "ESP32 Max V1.0 Controller Board",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "ESP32 Car Shield V2.0",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Blue LED Module",
+      "cantidad": 2,
+      "cantidad_manual_v2": 2,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "P-Buzzer Module",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "IR Receiver Module",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Ultrasonic Sensor",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Trace Sensor",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "TT DC Geared Motor",
+      "cantidad": 4,
+      "cantidad_manual_v2": 4,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Mecanum Wheel",
+      "cantidad": 4,
+      "cantidad_manual_v2": 4,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "IR Remote Control",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Servo SG90 9G",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "18650 Battery Holder",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Motor Bracket",
+      "cantidad": 4,
+      "cantidad_manual_v2": 4,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Coupler",
+      "cantidad": 4,
+      "cantidad_manual_v2": 4,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "USB Cable 1 m",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "F-F 3P Dupont Wire",
+      "cantidad": 6,
+      "cantidad_manual_v2": 6,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "F-F 4P Dupont Wire",
+      "cantidad": 2,
+      "cantidad_manual_v2": 2,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "F-F 5P Dupont Wire",
+      "cantidad": 2,
+      "cantidad_manual_v2": 2,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Screwdriver",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Cross Wrench",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Ultrasonic Bracket",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Acrylic Board",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 × 10 mm Round Head Screws",
+      "cantidad": 39,
+      "cantidad_manual_v2": 39,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 × 30 mm Round Head Screws",
+      "cantidad": 10,
+      "cantidad_manual_v2": 10,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M2 × 10 mm Round Head Screws",
+      "cantidad": 8,
+      "cantidad_manual_v2": 8,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M2 × 25 mm Round Head Self-Tapping Screws",
+      "cantidad": 5,
+      "cantidad_manual_v2": 5,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 × 8 mm Flat Head Screws",
+      "cantidad": 5,
+      "cantidad_manual_v2": 5,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M1.4 × 5 mm Large Round Flat Head Tapping Screws",
+      "cantidad": 3,
+      "cantidad_manual_v2": 3,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M2 Nickel-Plated Nuts",
+      "cantidad": 8,
+      "cantidad_manual_v2": 8,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 Nickel-Plated Nuts",
+      "cantidad": 31,
+      "cantidad_manual_v2": 31,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 × 14 mm Single-pass Copper Pillar",
+      "cantidad": 5,
+      "cantidad_manual_v2": 5,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "M3 × 40 mm Dual-pass Copper Pillar",
+      "cantidad": 8,
+      "cantidad_manual_v2": 8,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Nylon Cable Ties",
+      "cantidad": 3,
+      "cantidad_manual_v2": 3,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    },
+    {
+      "componente": "Black Tape",
+      "cantidad": 1,
+      "cantidad_manual_v2": 1,
+      "resultado": "Coincide",
+      "fuente": "Smart Car Manual V2, página PDF 4, numerada 3",
+      "identificacion_fisica": "No constituye recuento físico"
+    }
+  ],
+  "coincidencias": 34,
+  "diferencias_cuantitativas": 0,
+  "manual_sha256": "5a31458f20dd5e7de648eb1aca10cf02598c279e9ff7f0760cd872a2f2a241e6",
+  "manual_origen": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&dl=0"
+}

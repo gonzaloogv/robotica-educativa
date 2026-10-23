@@ -1,0 +1,991 @@
+{
+  "status": "passed",
+  "pages": 34,
+  "development_and_bibliography_pages": 15,
+  "annex_pages": 17,
+  "inventory_entries": 34,
+  "inventory_matches_official_v2": 34,
+  "inventory_quantity_differences": 0,
+  "tables": 8,
+  "figures": 8,
+  "native_word_equations": 7,
+  "contents_entries": 36,
+  "external_links": 33,
+  "unique_external_targets": 28,
+  "new_technical_sources_read": 17,
+  "original_files_and_previous_deliveries_unchanged": true,
+  "photo_originals_preserved": 8,
+  "hardware_operations": "none",
+  "firmware_modifications": "none",
+  "software_checks": "Typecheck, lint, tests y build de aplicación no corresponden: esta entrega es documental y no incorpora firmware.",
+  "docx_sha256": "683d7e5650476007897d6bc1a98397d90981e250ad420256921779f8bf5015e1",
+  "pdf_sha256": "6494abc3411746acc40c4bb979f6350ec130a17ae25b662955fac9ceadb17218",
+  "geometry": [
+    {
+      "page": 1,
+      "body_bounds_pt": [
+        70.95,
+        510.7,
+        72.63,
+        648.58
+      ],
+      "footer": "",
+      "images": 0
+    },
+    {
+      "page": 2,
+      "body_bounds_pt": [
+        70.95,
+        524.52,
+        72.95,
+        617.28
+      ],
+      "footer": "",
+      "images": 0
+    },
+    {
+      "page": 3,
+      "body_bounds_pt": [
+        70.95,
+        524.11,
+        73.95,
+        699.18
+      ],
+      "footer": "3",
+      "images": 0
+    },
+    {
+      "page": 4,
+      "body_bounds_pt": [
+        70.95,
+        524.06,
+        73.95,
+        693.93
+      ],
+      "footer": "4",
+      "images": 0
+    },
+    {
+      "page": 5,
+      "body_bounds_pt": [
+        70.95,
+        524.09,
+        73.95,
+        762.48
+      ],
+      "footer": "5",
+      "images": 0
+    },
+    {
+      "page": 6,
+      "body_bounds_pt": [
+        70.95,
+        524.08,
+        73.95,
+        658.63
+      ],
+      "footer": "6",
+      "images": 0
+    },
+    {
+      "page": 7,
+      "body_bounds_pt": [
+        70.95,
+        524.2,
+        73.95,
+        721.78
+      ],
+      "footer": "7",
+      "images": 0
+    },
+    {
+      "page": 8,
+      "body_bounds_pt": [
+        70.95,
+        524.01,
+        73.95,
+        430.58
+      ],
+      "footer": "8",
+      "images": 0
+    },
+    {
+      "page": 9,
+      "body_bounds_pt": [
+        70.95,
+        523.94,
+        73.95,
+        438.78
+      ],
+      "footer": "9",
+      "images": 0
+    },
+    {
+      "page": 10,
+      "body_bounds_pt": [
+        70.95,
+        523.99,
+        73.95,
+        716.43
+      ],
+      "footer": "10",
+      "images": 0
+    },
+    {
+      "page": 11,
+      "body_bounds_pt": [
+        70.95,
+        524.01,
+        73.95,
+        757.53
+      ],
+      "footer": "11",
+      "images": 0
+    },
+    {
+      "page": 12,
+      "body_bounds_pt": [
+        70.95,
+        524.0,
+        73.95,
+        755.43
+      ],
+      "footer": "12",
+      "images": 0
+    },
+    {
+      "page": 13,
+      "body_bounds_pt": [
+        70.95,
+        523.96,
+        72.63,
+        731.88
+      ],
+      "footer": "13",
+      "images": 0
+    },
+    {
+      "page": 14,
+      "body_bounds_pt": [
+        70.95,
+        523.96,
+        73.95,
+        748.38
+      ],
+      "footer": "14",
+      "images": 0
+    },
+    {
+      "page": 15,
+      "body_bounds_pt": [
+        70.95,
+        524.02,
+        73.95,
+        444.78
+      ],
+      "footer": "15",
+      "images": 0
+    },
+    {
+      "page": 16,
+      "body_bounds_pt": [
+        70.95,
+        524.13,
+        73.95,
+        634.68
+      ],
+      "footer": "16",
+      "images": 0
+    },
+    {
+      "page": 17,
+      "body_bounds_pt": [
+        70.95,
+        524.09,
+        72.63,
+        628.73
+      ],
+      "footer": "17",
+      "images": 0
+    },
+    {
+      "page": 18,
+      "body_bounds_pt": [
+        70.95,
+        523.96,
+        73.95,
+        675.03
+      ],
+      "footer": "18",
+      "images": 0
+    },
+    {
+      "page": 19,
+      "body_bounds_pt": [
+        70.95,
+        523.89,
+        73.95,
+        614.83
+      ],
+      "footer": "19",
+      "images": 2
+    },
+    {
+      "page": 20,
+      "body_bounds_pt": [
+        70.95,
+        524.03,
+        74.95,
+        573.43
+      ],
+      "footer": "20",
+      "images": 2
+    },
+    {
+      "page": 21,
+      "body_bounds_pt": [
+        70.95,
+        523.64,
+        73.95,
+        661.48
+      ],
+      "footer": "21",
+      "images": 1
+    },
+    {
+      "page": 22,
+      "body_bounds_pt": [
+        70.95,
+        523.9,
+        73.95,
+        619.03
+      ],
+      "footer": "22",
+      "images": 1
+    },
+    {
+      "page": 23,
+      "body_bounds_pt": [
+        70.95,
+        523.97,
+        73.95,
+        742.78
+      ],
+      "footer": "23",
+      "images": 0
+    },
+    {
+      "page": 24,
+      "body_bounds_pt": [
+        70.95,
+        523.84,
+        76.88,
+        700.08
+      ],
+      "footer": "24",
+      "images": 0
+    },
+    {
+      "page": 25,
+      "body_bounds_pt": [
+        70.95,
+        523.81,
+        73.95,
+        712.73
+      ],
+      "footer": "25",
+      "images": 0
+    },
+    {
+      "page": 26,
+      "body_bounds_pt": [
+        70.95,
+        524.02,
+        73.95,
+        702.93
+      ],
+      "footer": "26",
+      "images": 0
+    },
+    {
+      "page": 27,
+      "body_bounds_pt": [
+        70.95,
+        523.99,
+        73.95,
+        671.98
+      ],
+      "footer": "27",
+      "images": 0
+    },
+    {
+      "page": 28,
+      "body_bounds_pt": [
+        70.95,
+        523.97,
+        73.95,
+        672.98
+      ],
+      "footer": "28",
+      "images": 0
+    },
+    {
+      "page": 29,
+      "body_bounds_pt": [
+        70.95,
+        523.97,
+        73.95,
+        583.18
+      ],
+      "footer": "29",
+      "images": 0
+    },
+    {
+      "page": 30,
+      "body_bounds_pt": [
+        70.95,
+        524.07,
+        73.95,
+        562.48
+      ],
+      "footer": "30",
+      "images": 0
+    },
+    {
+      "page": 31,
+      "body_bounds_pt": [
+        70.95,
+        524.09,
+        73.95,
+        542.78
+      ],
+      "footer": "31",
+      "images": 0
+    },
+    {
+      "page": 32,
+      "body_bounds_pt": [
+        70.95,
+        523.27,
+        73.95,
+        737.28
+      ],
+      "footer": "32",
+      "images": 2
+    },
+    {
+      "page": 33,
+      "body_bounds_pt": [
+        70.95,
+        524.12,
+        74.95,
+        701.68
+      ],
+      "footer": "33",
+      "images": 0
+    },
+    {
+      "page": 34,
+      "body_bounds_pt": [
+        70.95,
+        523.94,
+        73.95,
+        267.18
+      ],
+      "footer": "34",
+      "images": 0
+    }
+  ],
+  "pdf_external_links": [
+    {
+      "page": 16,
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366i.htm"
+    },
+    {
+      "page": 16,
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm"
+    },
+    {
+      "page": 16,
+      "url": "https://www.nist.gov/publications/nistsematech-engineering-statistics-handbook-chapter-2-measurement-process"
+    },
+    {
+      "page": 16,
+      "url": "https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf"
+    },
+    {
+      "page": 16,
+      "url": "https://www.redalyc.org/journal/5706/570661491004/570661491004.pdf"
+    },
+    {
+      "page": 16,
+      "url": "https://backend.educ.ar/refactor_resource/get-attachment/162"
+    },
+    {
+      "page": 17,
+      "url": "https://www.researchgate.net/publication/383448334_Analysis_of_the_Measurement_Error_From_a_Low-Cost_Ultrasonic_Sensor/fulltext/66cde986bd201736675be557/Analysis-of-the-Measurement-Error-From-a-Low-Cost-Ultrasonic-Sensor.pdf"
+    },
+    {
+      "page": 17,
+      "url": "https://arxiv.org/pdf/2506.06314"
+    },
+    {
+      "page": 17,
+      "url": "https://www-users.york.ac.uk/~mjf5/roach/Datasheets/HCSR04_Manual.pdf"
+    },
+    {
+      "page": 17,
+      "url": "https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/"
+    },
+    {
+      "page": 17,
+      "url": "https://docs.micropython.org/en/latest/library/machine.html"
+    },
+    {
+      "page": 17,
+      "url": "https://docs.micropython.org/en/latest/esp32/quickref.html"
+    },
+    {
+      "page": 17,
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm"
+    },
+    {
+      "page": 24,
+      "url": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&dl=0"
+    },
+    {
+      "page": 24,
+      "url": "https://acebott.com/tutorial/"
+    },
+    {
+      "page": 25,
+      "url": "https://shop.acebott.com/products/acebott-qa052-esp32-car-shield-v1-0"
+    },
+    {
+      "page": 25,
+      "url": "https://acebott.com/docs/qa052-esp32-car-shield-v1-0/"
+    },
+    {
+      "page": 25,
+      "url": "https://acebott.com/tutorial/"
+    },
+    {
+      "page": 27,
+      "url": "https://shop.acebott.com/products/acebott-qa052-esp32-car-shield-v1-0"
+    },
+    {
+      "page": 27,
+      "url": "https://acebott.com/docs/qa007-qa008-qa009-esp32-max-v1-0-controller-board/"
+    },
+    {
+      "page": 28,
+      "url": "https://www.dropbox.com/scl/fo/892ydm4qyqw7e10oup40h/AHYlVVPFq4_BCH0yVdJyfzI?rlkey=ez14m5d6335al7pwzup7kit3q&st=kpmvmfwc&dl=0"
+    },
+    {
+      "page": 28,
+      "url": "https://acebott.com/docs/qb054-servo-sg90-9g-module-180-degree/"
+    },
+    {
+      "page": 28,
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB042%20Ultrasonic%20Sensor.html"
+    },
+    {
+      "page": 29,
+      "url": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&dl=0"
+    },
+    {
+      "page": 29,
+      "url": "https://www.dropbox.com/scl/fo/nuvcm7jz61pyvkf2e6wqn/AL1zIzwhCVJPD_86wI9yRsY?rlkey=2sw5femcol2t2od43sqxhxaf9&st=oopqhoof&dl=0"
+    },
+    {
+      "page": 30,
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB001%2BQB053%20Infrared%20Remote%20Control%20Module.html"
+    },
+    {
+      "page": 30,
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Sensor/QB060%20Trace%20Sensor.html"
+    },
+    {
+      "page": 31,
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB010%20P-Buzzer%20Module.html"
+    },
+    {
+      "page": 31,
+      "url": "https://acebottteam.github.io/acebott-docs-master/tutorials/Module/QB007%20LED%20Module.html"
+    },
+    {
+      "page": 33,
+      "url": "https://github.com/tino/pyFirmata"
+    },
+    {
+      "page": 33,
+      "url": "https://docs.micropython.org/en/latest/rp2/quickref.html"
+    },
+    {
+      "page": 33,
+      "url": "https://www.st.com/resource/en/datasheet/l298.pdf"
+    },
+    {
+      "page": 33,
+      "url": "https://www-users.york.ac.uk/~mjf5/roach/Datasheets/HCSR04_Manual.pdf"
+    }
+  ],
+  "contents": [
+    {
+      "title": "3. Introducción",
+      "page": 3,
+      "level": 1,
+      "key": "section_1"
+    },
+    {
+      "title": "4. Planteamiento del problema y objetivos",
+      "page": 4,
+      "level": 1,
+      "key": "section_2"
+    },
+    {
+      "title": "4.1 Problema",
+      "page": 4,
+      "level": 2,
+      "key": "section_3"
+    },
+    {
+      "title": "4.2 Objetivo general",
+      "page": 4,
+      "level": 2,
+      "key": "section_4"
+    },
+    {
+      "title": "4.3 Objetivos específicos",
+      "page": 4,
+      "level": 2,
+      "key": "section_5"
+    },
+    {
+      "title": "5. Marco teórico",
+      "page": 5,
+      "level": 1,
+      "key": "section_6"
+    },
+    {
+      "title": "5.1 Robótica educativa",
+      "page": 5,
+      "level": 2,
+      "key": "section_7"
+    },
+    {
+      "title": "5.2 MicroPython para ESP32",
+      "page": 5,
+      "level": 2,
+      "key": "section_8"
+    },
+    {
+      "title": "5.3 Sensores y actuadores",
+      "page": 6,
+      "level": 2,
+      "key": "section_9"
+    },
+    {
+      "title": "5.4 Medición, error e incertidumbre",
+      "page": 6,
+      "level": 2,
+      "key": "section_10"
+    },
+    {
+      "title": "5.5 Estadística descriptiva",
+      "page": 7,
+      "level": 2,
+      "key": "section_11"
+    },
+    {
+      "title": "5.6 Probabilidad e intervalos de confianza",
+      "page": 7,
+      "level": 2,
+      "key": "section_12"
+    },
+    {
+      "title": "5.7 Regresión lineal y correlación",
+      "page": 8,
+      "level": 2,
+      "key": "section_13"
+    },
+    {
+      "title": "5.8 Antecedentes",
+      "page": 9,
+      "level": 2,
+      "key": "section_14"
+    },
+    {
+      "title": "6. Desarrollo técnico de la investigación",
+      "page": 10,
+      "level": 1,
+      "key": "section_15"
+    },
+    {
+      "title": "6.1 Descripción del prototipo",
+      "page": 10,
+      "level": 2,
+      "key": "section_16"
+    },
+    {
+      "title": "6.2 Componentes y materiales",
+      "page": 10,
+      "level": 2,
+      "key": "section_17"
+    },
+    {
+      "title": "6.3 Experiencia de armado",
+      "page": 11,
+      "level": 2,
+      "key": "section_18"
+    },
+    {
+      "title": "6.4 Programa en Python",
+      "page": 11,
+      "level": 2,
+      "key": "section_19"
+    },
+    {
+      "title": "6.5 Procedimiento de comprobación",
+      "page": 12,
+      "level": 2,
+      "key": "section_20"
+    },
+    {
+      "title": "6.6 Ventajas, limitaciones y medidas de seguridad",
+      "page": 13,
+      "level": 2,
+      "key": "section_21"
+    },
+    {
+      "title": "7. Resultados y análisis",
+      "page": 14,
+      "level": 1,
+      "key": "section_22"
+    },
+    {
+      "title": "8. Conclusión",
+      "page": 15,
+      "level": 1,
+      "key": "section_23"
+    },
+    {
+      "title": "9. Bibliografía y fuentes consultadas",
+      "page": 16,
+      "level": 1,
+      "key": "section_24"
+    },
+    {
+      "title": "10. Anexos",
+      "page": 18,
+      "level": 1,
+      "key": "section_25"
+    },
+    {
+      "title": "Anexo A. Programa y configuración",
+      "page": 18,
+      "level": 2,
+      "key": "annex_a"
+    },
+    {
+      "title": "Anexo B. Datos originales y trazabilidad",
+      "page": 18,
+      "level": 2,
+      "key": "annex_b"
+    },
+    {
+      "title": "Anexo C. Fotografías y experiencia de armado",
+      "page": 19,
+      "level": 2,
+      "key": "annex_c"
+    },
+    {
+      "title": "Anexo D. Documentación técnica del montaje",
+      "page": 23,
+      "level": 2,
+      "key": "annex_d"
+    },
+    {
+      "title": "D.1 Inventario de componentes del kit ACEBOTT QD001",
+      "page": 23,
+      "level": 3,
+      "key": "d_inventory"
+    },
+    {
+      "title": "D.2 Cotejo del inventario y diferencias de documentación",
+      "page": 25,
+      "level": 3,
+      "key": "d_comparison"
+    },
+    {
+      "title": "D.3 Identificación visual y documentación pendiente",
+      "page": 26,
+      "level": 3,
+      "key": "d_visual"
+    },
+    {
+      "title": "D.4 Fichas técnicas y alcance de sus especificaciones",
+      "page": 27,
+      "level": 3,
+      "key": "d_specs"
+    },
+    {
+      "title": "D.5 Fotografías de montaje y alimentación",
+      "page": 32,
+      "level": 3,
+      "key": "d_photos"
+    },
+    {
+      "title": "D.6 Referencias generales conservadas del original",
+      "page": 33,
+      "level": 3,
+      "key": "d_general"
+    },
+    {
+      "title": "Anexo E. Cálculos y análisis reproducible",
+      "page": 34,
+      "level": 2,
+      "key": "annex_e"
+    }
+  ],
+  "rendered_page_sha256": [
+    {
+      "page": 1,
+      "sha256": "5309d9cbb04b412149d7409f568c17932e8a93d8cf8450c7cfbe54d32cb2f12d"
+    },
+    {
+      "page": 2,
+      "sha256": "96e0e594841990248a01ed8e49fe47480aac564341ded6515c421f4929054848"
+    },
+    {
+      "page": 3,
+      "sha256": "7847412a511f0acf0f64248bee13ebb4db55126949962552aafdf0c2b7fa499f"
+    },
+    {
+      "page": 4,
+      "sha256": "4f5c793d2348f953629019ed146812859ff86f640ccffd61d2badd3e924d2914"
+    },
+    {
+      "page": 5,
+      "sha256": "2db57d2ad93cf226d05cbb0bfd820abca375bb3cec0e38fb38b3564a3e947f92"
+    },
+    {
+      "page": 6,
+      "sha256": "7ce22329bff16a11321298ca5a154f47a3fc82c6c582fcbd2c847c72db97240a"
+    },
+    {
+      "page": 7,
+      "sha256": "f3d92a4c2b0d30da807d8753634beb2ca6fc3e9037feec1fe9abafc0abc51e11"
+    },
+    {
+      "page": 8,
+      "sha256": "1067fefdb1867e5461ec8edf8958e5594e1561bc8a5b4d91d543b549566504a7"
+    },
+    {
+      "page": 9,
+      "sha256": "1def15bb65cbb874498111481d3a82c66887616df37135e6366099d75f2c7dcf"
+    },
+    {
+      "page": 10,
+      "sha256": "5194df755a8f58fa56a0f1baa2f3f568c53297118eacd4800331281161724880"
+    },
+    {
+      "page": 11,
+      "sha256": "d5f3ecc978bb0559fb6692a5cda0d373b399630972af8414780c0a602364f622"
+    },
+    {
+      "page": 12,
+      "sha256": "1d175f9da9b02686bb6acae2dc1e048a4c1717bf0e8ae48cf3e1def4eb3bf808"
+    },
+    {
+      "page": 13,
+      "sha256": "f1105c757c4f33aab6ac981bee37948b65a3d793963061d1c37605360f650c54"
+    },
+    {
+      "page": 14,
+      "sha256": "e3fce80b939564d7f7297f3b537da67a7d27f2bdfb9f5f599bf106bf1f74f44a"
+    },
+    {
+      "page": 15,
+      "sha256": "583ece16aaa82d274fcfed22a39a119952e8b5d8c7e0c94541b4e50f120b27d0"
+    },
+    {
+      "page": 16,
+      "sha256": "0e1cfe3d7d8ebb95938d1be67d9e4dd94020bead2ceae1116ffb505ee30b26b4"
+    },
+    {
+      "page": 17,
+      "sha256": "97409de0dcbf4ecb0b813d84590425e715b9b8a59b6eb9496a89e22f38f36ffd"
+    },
+    {
+      "page": 18,
+      "sha256": "e598a8461f3ba351bbb5a4e56df309a5a45d3e9f79ab3ca5ca53108d2df6f265"
+    },
+    {
+      "page": 19,
+      "sha256": "b04cc57f673f438da92abe34397b4c6e133457e2b620e8e28967a9a3f66e3f35"
+    },
+    {
+      "page": 20,
+      "sha256": "8ae879ae16a56dae5d176d4ff58624b64769468e9e9166482e90fda192b7539b"
+    },
+    {
+      "page": 21,
+      "sha256": "ff9d317bbce0ba7be6d5a685f302f947602151710b56ac6599ecd1249868eac8"
+    },
+    {
+      "page": 22,
+      "sha256": "9275a5f1a9019b4db31a89665b084af730b754898f96315d5c85b91cc5858ec8"
+    },
+    {
+      "page": 23,
+      "sha256": "6adb35948c62510adcda2d795347ccf1a0a4ddb71db9b4bed7c10cc54312e8d8"
+    },
+    {
+      "page": 24,
+      "sha256": "2e7668f221c47570cf29a99d382f900516f6df81c7901df17b6aa4b5dbf5fca4"
+    },
+    {
+      "page": 25,
+      "sha256": "b0f2b88f95b476ea1eeb98df2b3336c6c8b854762c543f0d5697b4c2c3bb5a9f"
+    },
+    {
+      "page": 26,
+      "sha256": "1232d0e879e4a4b97440b1bcc06e9f1e2ad4a14fd3899c872ca222447fe6a0ae"
+    },
+    {
+      "page": 27,
+      "sha256": "a66318f14d339e7c642c199c788c3381dcce000f92d49f6451e972a711d061ac"
+    },
+    {
+      "page": 28,
+      "sha256": "5f9c1d54fea66a3e0f2d2a7a24a6cb18bd1ab0f71151af9b2c441b58021d1a8a"
+    },
+    {
+      "page": 29,
+      "sha256": "72c21e0126d9a28e06851a568e72f876cde8f8c106aded652d165b24200170b6"
+    },
+    {
+      "page": 30,
+      "sha256": "38278a2b75a774e6235e34505c7182aa9e6d007f747c64ebde77fa7705fb9521"
+    },
+    {
+      "page": 31,
+      "sha256": "022b9e2fa1cea7bc42d487eacd3454ceddbfda4afcc0cd5df676ebe258bfe8a3"
+    },
+    {
+      "page": 32,
+      "sha256": "e30507edca504c4effb43426ec9a6249ec535602ba6dc0def8e858b28e691e85"
+    },
+    {
+      "page": 33,
+      "sha256": "e5ac070a890caf4c385c55b30a2118de69adb620007b94c5111de7bbf1683642"
+    },
+    {
+      "page": 34,
+      "sha256": "d890c4e0690d4bf658d7c396a1cab54279f8a3ca529eaf59ac020e00fa968af8"
+    }
+  ],
+  "visual_inspection": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "resolution": "1414 x 2000 px",
+    "method": "Inspección individual de las 34 páginas finales: índice, portada, fórmulas, tablas continuadas, epígrafes, fotografías, fuentes, márgenes y numeración."
+  },
+  "deliverables": [
+    {
+      "name": "Auditoria_bibliografica.md",
+      "bytes": 25780,
+      "sha256": "35cac844968e638e505509dc51436ba959770a8635ab97542ff1e9b6c2dd1f13"
+    },
+    {
+      "name": "Conservacion_del_contenido_original.md",
+      "bytes": 6449,
+      "sha256": "99a2de5ba889210777febe96a8d55f211cc03a4ac89ad31e10ff6c353f515501"
+    },
+    {
+      "name": "Cotejo_inventario.json",
+      "bytes": 9792,
+      "sha256": "64e88036f4ec1bb952dbb53bc68a6feeda106876c3ed7e4d02d793149222a90a"
+    },
+    {
+      "name": "Cotejo_inventario.md",
+      "bytes": 3578,
+      "sha256": "166c29a50b4050901d095778e11b5dd5ebb7bb201c42db2bf53fe2c07463bacb"
+    },
+    {
+      "name": "Evidencia_enlaces.json",
+      "bytes": 20326,
+      "sha256": "026f54415db21d781f48c6773505d0acfca0cbc3134d3be5fdc346fb53a6b495"
+    },
+    {
+      "name": "Evidencia_fuentes_tecnicas.json",
+      "bytes": 10032,
+      "sha256": "2b4b73d9c0e6bb33dc28f08ad8f9b3e40c1204343e5b2814532f2c8de1f3b034"
+    },
+    {
+      "name": "Informacion_experimental_pendiente.md",
+      "bytes": 5301,
+      "sha256": "a2ef25af6239e2a37658ca509476d2fec5cf03e90b46c870188cbab4612e8f4d"
+    },
+    {
+      "name": "Informe_Robotica_Educativa_anexo_D_ampliado.docx",
+      "bytes": 953127,
+      "sha256": "683d7e5650476007897d6bc1a98397d90981e250ad420256921779f8bf5015e1"
+    },
+    {
+      "name": "Informe_Robotica_Educativa_anexo_D_ampliado.pdf",
+      "bytes": 1501086,
+      "sha256": "6494abc3411746acc40c4bb979f6350ec130a17ae25b662955fac9ceadb17218"
+    },
+    {
+      "name": "Registro_de_cambios.md",
+      "bytes": 9483,
+      "sha256": "248af3b6a1594f5b8a7bd7c8a15f353f64a1f7c2664e6900aa34b9c4087718ee"
+    },
+    {
+      "name": "Registro_fotografico.json",
+      "bytes": 4105,
+      "sha256": "5d75eb3def6c403c0147ba7a56360363da021a9beb6a350ab383c4ef9a0fbbca"
+    },
+    {
+      "name": "Registro_fotografico.md",
+      "bytes": 2278,
+      "sha256": "4a1631098c38e6c2e34bce81ea78fad727a47baea209d936345afeabbd3fd7bb"
+    }
+  ]
+}
