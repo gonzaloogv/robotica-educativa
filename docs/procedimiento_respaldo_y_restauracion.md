@@ -34,7 +34,7 @@ Segunda copia: D:\ACEBOTT-Backups\Alumnos\QD001-20261023-091536
 
 Según Windows, C: corresponde al disco 1 y D: al disco 0. Son dos discos locales de la misma PC; no son una copia externa ni protección frente a pérdida de toda la computadora. Las carpetas tienen herencia de permisos desactivada y acceso concedido al usuario actual y SYSTEM. Los permisos NTFS no equivalen a cifrado y no impiden acceso de un administrador que tome posesión. Los binarios pueden contener credenciales Wi-Fi: no publicarlos.
 
-Cada carpeta contiene manifest.json, las dos imágenes, logs y un verificador de integridad. Antes de modificar firmware conviene conservar además una copia privada en un medio externo y cotejar el SHA-256. Nunca respaldar dentro del repositorio. El .gitignore excluye binarios y descargas.
+Cada carpeta contiene manifest.json, las dos imágenes, logs y un verificador de integridad. Antes de modificar firmware conviene conservar además una copia privada en un medio externo y cotejar el SHA-256. Los binarios originales sin cifrar siguen fuera de Git. A pedido posterior del usuario se incorporó al repositorio una copia cifrada en backups/acebott-qd001, con la clave fuera de Git en las dos carpetas privadas. El .gitignore excluye binarios sin cifrar, claves y descargas.
 
 Para revisar integridad sin abrir COM6 ni conectarse al robot:
 

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "created": "2026-10-23T12:47:17.908790+00:00",
+  "device": "ACEBOTT QD001 / ESP32-D0WD-V3 rev 3.1",
+  "encryption": "Fernet",
+  "encrypted_file": "firmware-original.fernet",
+  "encrypted_bytes": 5592504,
+  "encrypted_sha256": "8423ec71ddfd75e1b717451ac575891be39a5357b45a81d1a0ca3450c1159509",
+  "original_bytes": 4194304,
+  "original_sha256": "f8d6975734345b72ebd68e9cf845996cdca328ba350991a6995c671cd9e99c15",
+  "flash_start_address": "0x00000000",
+  "flash_last_address": "0x003fffff",
+  "capture_date": "2026-10-23",
+  "capture_esptool": "5.6.0",
+  "capture_validation": "Two full reads with matching SHA-256; verify-flash digest matched",
+  "hardware_restoration_tested": false,
+  "key_stored_in_git": false
+}

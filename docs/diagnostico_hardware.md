@@ -53,3 +53,9 @@ Herramientas locales: entorno .venv, Python 3.10, esptool 5.6.0. Para resolver l
 Se completaron dos lecturas coincidentes de 4 MB a 115200 baudios mediante lector temporal en RAM. SHA-256: F8D6975734345B72EBD68E9CF845996CDCA328BA350991A6995C671CD9E99C15. verify-flash confirmó correspondencia de la imagen con la flash completa. Se conservan copias privadas en C: y D:, con manifiestos y verificación local. Procedimiento y límites: docs/procedimiento_respaldo_y_restauracion.md.
 
 No se escribió ni borró flash ni se programaron eFuses. Al finalizar se reinició la placa para arrancar el firmware existente. No se comprobó todavía el funcionamiento desde la app. La restauración no fue ensayada y se mantiene la instrucción del usuario de probar primero el firmware actual. Se trabaja en trabajo/micropython-respaldo; origin/documentacion continúa sin cambios.
+
+## Copia cifrada dentro del repositorio — 2026-10-23
+
+El usuario pidió conservar también el firmware de respaldo en el repositorio. Se agregó backups/acebott-qd001/firmware-original.fernet y su manifiesto, con la clave privada fuera de Git en las carpetas de C: y D:. tools/extraer_respaldo.py permite verificar o extraer el original sin conectarse al dispositivo. El descifrado con ambas copias de la clave reproduce los 4.194.304 bytes y el SHA-256 original. Los binarios originales y claves permanecen excluidos de Git. No se accedió al robot para este trabajo.
+
+En el volcado se encontró el literal ESP32-CAR (en mayúsculas) y una partición NVS con datos. Esto orienta la próxima prueba de Wi-Fi, pero no prueba que la red esté siendo emitida ni diagnostica su ausencia. El usuario indicó que el dispositivo está desconectado.
