@@ -46,3 +46,7 @@ Elegir una carpeta privada existente y un nombre de salida que todavía no exist
 ```
 
 No sobrescribe archivos existentes. Extraer no instala ni escribe nada en el robot. La recuperación funcional en hardware NO se ensayó: el usuario pidió conservar y probar primero el firmware actual. El procedimiento de recuperación propuesto está en ../../docs/procedimiento_respaldo_y_restauracion.md.
+
+## Aclaración sobre el estado respaldado
+
+Esta imagen conserva el programa y la configuración que tenía el robot al iniciar la sesión de trabajo. No acredita que sea el firmware de fábrica. El usuario informó que al encender avanza sin detenerse y no muestra Wi-Fi. Restaurar esta copia recuperaría ese estado; no corrige por sí solo ese comportamiento. La investigación está en docs/diagnostico_arranque_wifi.md y queda pendiente revisar el proyecto fuente conservado por el grupo.
