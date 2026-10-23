@@ -1,5 +1,7 @@
 # Robótica educativa
 
+> **Continuidad al 23/10/2026:** el usuario informó funcionamiento correcto con un firmware estable después de restaurar desde ACECode. Su nuevo respaldo y comparación se postergaron con el robot desconectado. El respaldo anterior sigue verificado, pero no representa automáticamente ese estado ni el de fábrica. MicroPython está descargado, no instalado. La instrucción vigente es **no modificar el robot**. Leer [el estado de la sesión](docs/estado_sesion_2026-10-23.md) y [la guía para trabajar desde casa sin robot](docs/continuidad_micropython_sin_robot.md).
+
 Proyecto académico de Probabilidad y Estadística de segundo año de la Tecnicatura Superior en Desarrollo de Software del Instituto Educativo Económico Nacional (IEN), UEGP N.° 167.
 
 En este repositorio se realizará la programación en Python del robot ACEBOTT QD001, junto con las herramientas necesarias para registrar sus mediciones y analizar estadísticamente su desempeño. El código, los datos de los ensayos y el informe deberán describir el mismo funcionamiento del prototipo.
@@ -16,7 +18,7 @@ El trabajo integra:
 - Análisis de repetibilidad, error de medición, calibración y frecuencia de éxito.
 - Documentación del armado, las conexiones, los resultados y las conclusiones.
 
-## Estado actual
+## Informe y contexto de partida
 
 El proyecto cuenta con un [borrador actualizado del informe en PDF](output/informe-borrador-corregido/Informe_Robotica_Educativa_borrador.pdf), su [fuente editable en Word](output/informe-borrador-corregido/Informe_Robotica_Educativa_borrador.docx), los dos documentos de referencia del instituto y la documentación técnica del robot.
 
@@ -27,7 +29,7 @@ Según el [contexto técnico aportado por el grupo](CONTEXTO_PARA_CODEX_ACEBOTT_
 - Todavía no se probaron el movimiento autónomo ni la captura de mediciones.
 - Se desea utilizar MicroPython en el ESP32, sujeto a comprobar el hardware y definir cómo conservar o recuperar el funcionamiento del firmware original.
 
-Estos avances fueron informados por el grupo. Todavía no hay código propio del robot, scripts de captura o análisis, mediciones reales ni herramientas de ejecución configuradas en el repositorio. El borrador incorpora la experiencia de armado, las dificultades y su resolución, la prueba manual, el inventario del kit V2.0 y las ocho fotografías. Los resultados experimentales, las conclusiones finales y la presentación para la defensa siguen pendientes.
+Estos avances fueron informados por el grupo. Todavía no hay código propio del robot, scripts de captura o análisis ni mediciones reales. Se prepararon herramientas locales de diagnóstico y respaldo; eso no equivale a un programa autónomo o a MicroPython instalado. El borrador incorpora armado, dificultades y resolución, prueba manual, inventario V2.0 y ocho fotografías. Los resultados experimentales, conclusiones finales y presentación para la defensa siguen pendientes.
 
 La [revisión inicial del informe](docs/revision-informe.md) conserva el diagnóstico de partida. Los [cambios aplicados](output/informe-borrador-corregido/Cambios_aplicados.md) y el [registro de verificación](output/informe-borrador-corregido/Verificacion_entrega.json) corresponden al borrador actualizado. Las carpetas restantes de `output/` conservan las versiones anteriores y sus fuentes.
 
@@ -35,6 +37,11 @@ La [revisión inicial del informe](docs/revision-informe.md) conserva el diagnó
 
 | Documento | Uso |
 | --- | --- |
+| [Estado de continuidad del 23/10/2026](docs/estado_sesion_2026-10-23.md) | Comprobaciones, firmware estable informado y comparación pendiente. |
+| [MicroPython sin robot](docs/continuidad_micropython_sin_robot.md) | Lógica y pruebas en PC; integración física pendiente. |
+| [Preparación de MicroPython](PREPARACION_MICROPYTHON.md) | Descarga realizada, integridad local y límites. |
+| [Diagnóstico de hardware](docs/diagnostico_hardware.md) | Chip, flash, controlador USB y alcance de las lecturas. |
+| [Respaldo y recuperación](docs/procedimiento_respaldo_y_restauracion.md) | Diferencia entre imagen anterior y estado estable; verificación y límites. |
 | [Pautas de organización](<ROBOTICA - PAUTAS DE ORGANIZACIÓN 2026.pdf>) | Requisitos del informe escrito, la presentación visual y la defensa oral. |
 | [Rúbrica de evaluación](<Rúbrica Proyecto IEN 2026.pdf>) | Criterios y ponderaciones de la defensa del proyecto. |
 | [Informe actualizado en PDF](output/informe-borrador-corregido/Informe_Robotica_Educativa_borrador.pdf) | Borrador vigente con documentación técnica, fotografías y metodología; resultados y conclusión experimental pendientes. |
@@ -55,17 +62,17 @@ El informe identifica el kit ACEBOTT QD001 con estos componentes principales:
 
 La lista debe contrastarse con el kit recibido. El modelo exacto del sensor ultrasónico, la etapa de potencia, los pines y la alimentación siguen pendientes de confirmación.
 
-El fabricante [declara compatibilidad con Python](https://acebott.com/es/stem-kits/explorer-series/acebott-omni-wheel-car-robot-starter-kit-collection/), y su [documentación del QD001](https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/) describe el kit y sus funciones. La opción prevista por el grupo es MicroPython ejecutándose en el ESP32. Falta validar la variante de placa, el firmware compatible y las bibliotecas necesarias; la [documentación oficial para ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html) deberá corresponder a la versión que se instale.
+El fabricante [declara compatibilidad con Python](https://acebott.com/es/stem-kits/explorer-series/acebott-omni-wheel-car-robot-starter-kit-collection/), y su [documentación del QD001](https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/) describe el kit y sus funciones. Se identificaron ESP32-D0WD-V3 revisión 3.1 y 4 MB de flash. La opción prevista es evaluar MicroPython en el ESP32: se descargó ESP32_GENERIC 1.29.0, pero no se instaló. Faltan validar montaje, firmware y adaptadores; la [documentación de ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html) deberá corresponder a la versión instalada.
 
 Las instrucciones de instalación, carga y ejecución se incorporarán cuando el entorno esté definido y comprobado con el robot.
 
 ## Conservación del firmware y control del equipo
 
-El firmware actual permite el control con la app oficial. Conservar o recuperar esa capacidad es un criterio de la elección técnica. El contexto del grupo pide investigar primero la viabilidad y preservar el firmware antes de cualquier reemplazo; la preferencia por MicroPython todavía está sujeta a esa evaluación.
+El grupo informó una prueba previa con la app y, al finalizar la sesión del 23/10, funcionamiento correcto con un firmware estable después de una restauración. Conservar o recuperar las funciones comprobadas es un criterio de la elección técnica. La preferencia por MicroPython sigue sujeta a evaluar compatibilidad y recuperación.
 
-La etapa actual comprende revisión documental y preparación del diagnóstico. La conexión al dispositivo y las lecturas de diagnóstico o respaldo se coordinarán con el usuario, ya que pueden reiniciar el equipo. El cambio de firmware y las pruebas de movimiento requieren autorización explícita.
+La etapa actual comprende documentación y desarrollo sin robot. El usuario dejó el equipo desconectado y pospuso el respaldo y comparación del firmware estable. Toda nueva conexión o lectura se coordinará porque puede reiniciar la placa. Cambiar firmware o ejecutar motores requiere autorización explícita.
 
-El respaldo deberá guardarse fuera del repositorio, con tamaño y huella SHA-256 registrados y una segunda copia privada. También se deberá documentar cómo se recuperaría el funcionamiento original: disponer de un volcado no demuestra por sí solo que pueda restaurarse. Los binarios y las credenciales Wi-Fi se mantendrán fuera de Git.
+El respaldo ANTERIOR tiene dos lecturas completas de 4 MB con SHA-256 idéntico y verificación contra flash correcta. Se conserva en privado, con copias en dos discos locales. No acredita ser imagen de fábrica ni una copia del firmware estable posterior. La restauración funcional no se ensayó. El [procedimiento y sus límites](docs/procedimiento_respaldo_y_restauracion.md) explica qué falta antes de reemplazar el estado estable. Esta publicación documental no contiene volcados, claves ni credenciales.
 
 ## Programación prevista
 

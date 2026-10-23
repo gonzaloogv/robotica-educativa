@@ -1,5 +1,7 @@
 # Handoff técnico para Codex — ACEBOTT QD001 / Proyecto IEN 2026
 
+> **Actualización posterior, 23/10/2026:** leer primero [el estado de continuidad](docs/estado_sesion_2026-10-23.md). El usuario informó un firmware estable posterior al respaldo inicial, pospuso su comparación y pidió no modificar el robot. MicroPython no está instalado. Las secciones siguientes conservan el contexto inicial del 20/10; no deben confundirse con el estado técnico actualizado.
+
 **Corte de información:** 20 de octubre de 2026. **Estado:** diagnóstico y diseño; NO se autorizó modificar el firmware.
 
 ## 1. Propósito y contexto

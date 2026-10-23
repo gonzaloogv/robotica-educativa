@@ -1,0 +1,9 @@
+/downloads/
+/.venv/
+__pycache__/
+*.bin
+*.dump
+*.key
+*.fernet
+.env
+/backups/
