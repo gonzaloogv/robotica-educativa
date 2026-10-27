@@ -1,5 +1,7 @@
 # Continuar MicroPython desde casa, sin el robot
 
+> **Estado posterior, 27/10/2026:** MicroPython y el programa USB ya estan instalados por pedido del usuario; luces, musica y ultrasonico respondieron, pero no hubo giro visible de motores. Leer primero [el contexto vigente](estado_sesion_2026-10-27.md). Esta guia conserva el contexto de la etapa anterior.
+
 ## Alcance
 
 Se puede desarrollar la lógica de decisión, los formatos de datos y el análisis en Python de PC. Eso no demuestra que funcionen el sensor, la dirección de los motores o el frenado del robot.

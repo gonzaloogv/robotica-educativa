@@ -1,6 +1,6 @@
 # Robótica educativa
 
-> **Continuidad al 23/10/2026:** el usuario informó funcionamiento correcto con un firmware estable después de restaurar desde ACECode. Su nuevo respaldo y comparación se postergaron con el robot desconectado. El respaldo anterior sigue verificado, pero no representa automáticamente ese estado ni el de fábrica. MicroPython está descargado, no instalado. La instrucción vigente es **no modificar el robot**. Leer [el estado de la sesión](docs/estado_sesion_2026-10-23.md) y [la guía para trabajar desde casa sin robot](docs/continuidad_micropython_sin_robot.md).
+> **Continuidad al 27/10/2026:** MicroPython 1.29.0 y el programa USB `0.1.1-usb` están instalados por pedido del usuario. Luces, melodía y ultrasónico respondieron; los motores no giraron de forma visible y siguen en diagnóstico. Se omitió el respaldo del firmware estable inmediatamente anterior por indicación explícita del usuario; la imagen cifrada anterior sigue conservada. Leer primero [el contexto completo y los próximos pasos](docs/estado_sesion_2026-10-27.md).
 
 Proyecto académico de Probabilidad y Estadística de segundo año de la Tecnicatura Superior en Desarrollo de Software del Instituto Educativo Económico Nacional (IEN), UEGP N.° 167.
 
@@ -25,11 +25,11 @@ El proyecto cuenta con un [borrador actualizado del informe en PDF](output/infor
 Según el [contexto técnico aportado por el grupo](CONTEXTO_PARA_CODEX_ACEBOTT_QD001.md):
 
 - El robot está armado y tiene instalado el sensor ultrasónico.
-- Respondió correctamente a órdenes de movimiento desde la aplicación oficial ACEBOTT por Wi-Fi.
+- Respondió a órdenes de movimiento desde la aplicación ACEBOTT antes de reemplazar el firmware; ese resultado no acredita movimiento con el programa Python actual.
 - Todavía no se probaron el movimiento autónomo ni la captura de mediciones.
-- Se desea utilizar MicroPython en el ESP32, sujeto a comprobar el hardware y definir cómo conservar o recuperar el funcionamiento del firmware original.
+- MicroPython está instalado; se cargó un programa USB con arranque detenido y comandos manuales. La adaptación de motores todavía no funciona físicamente.
 
-Estos avances fueron informados por el grupo. Todavía no hay código propio del robot, scripts de captura o análisis ni mediciones reales. Se prepararon herramientas locales de diagnóstico y respaldo; eso no equivale a un programa autónomo o a MicroPython instalado. El borrador incorpora armado, dificultades y resolución, prueba manual, inventario V2.0 y ocho fotografías. Los resultados experimentales, conclusiones finales y presentación para la defensa siguen pendientes.
+El contexto del grupo se complementó con la instalación y pruebas del 27/10. Ahora hay código propio en la [rama técnica](https://github.com/gonzaloogv/robotica-educativa/tree/trabajo/micropython-respaldo), una consola USB y catorce pruebas locales. Se obtuvieron lecturas reales del ultrasónico, sin calibración contra patrón ni campaña experimental. No hay autonomía, captura CSV o análisis estadístico completados. El borrador incorpora armado, dificultades y resolución, prueba manual previa, inventario V2.0 y ocho fotografías; todavía debe actualizarse con este nuevo estado. Los resultados experimentales, conclusiones finales y presentación para la defensa siguen pendientes.
 
 La [revisión inicial del informe](docs/revision-informe.md) conserva el diagnóstico de partida. Los [cambios aplicados](output/informe-borrador-corregido/Cambios_aplicados.md) y el [registro de verificación](output/informe-borrador-corregido/Verificacion_entrega.json) corresponden al borrador actualizado. Las carpetas restantes de `output/` conservan las versiones anteriores y sus fuentes.
 
@@ -37,6 +37,8 @@ La [revisión inicial del informe](docs/revision-informe.md) conserva el diagnó
 
 | Documento | Uso |
 | --- | --- |
+| [Contexto completo del 27/10/2026](docs/estado_sesion_2026-10-27.md) | Estado vigente, instalación, comandos Python, resultados reales y diagnóstico pendiente de motores. |
+| [Instalación de MicroPython](docs/instalacion_micropython_2026-10-27.md) | Escritura verificada, firmware usado y alcance del respaldo anterior. |
 | [Estado de continuidad del 23/10/2026](docs/estado_sesion_2026-10-23.md) | Comprobaciones, firmware estable informado y comparación pendiente. |
 | [MicroPython sin robot](docs/continuidad_micropython_sin_robot.md) | Lógica y pruebas en PC; integración física pendiente. |
 | [Variante completa ACECode en STA](docs/acecode_sta.md) | Proyecto de red local preparado en una rama separada, sin instalarlo en el robot. |
@@ -61,19 +63,19 @@ El informe identifica el kit ACEBOTT QD001 con estos componentes principales:
 - Sensor de seguimiento de línea, receptor infrarrojo, módulos LED y buzzer.
 - Portabaterías para celdas 18650.
 
-La lista debe contrastarse con el kit recibido. El modelo exacto del sensor ultrasónico, la etapa de potencia, los pines y la alimentación siguen pendientes de confirmación.
+El usuario confirmó la serigrafía V2.0 del Shield. El mapa del programa se obtuvo de ACECode; ultrasónico, luces y buzzer respondieron. Siguen pendientes el modelo exacto del sensor, los niveles eléctricos y la verificación del circuito, alimentación y recepción de órdenes de motores.
 
-El fabricante [declara compatibilidad con Python](https://acebott.com/es/stem-kits/explorer-series/acebott-omni-wheel-car-robot-starter-kit-collection/), y su [documentación del QD001](https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/) describe el kit y sus funciones. Se identificaron ESP32-D0WD-V3 revisión 3.1 y 4 MB de flash. La opción prevista es evaluar MicroPython en el ESP32: se descargó ESP32_GENERIC 1.29.0, pero no se instaló. Faltan validar montaje, firmware y adaptadores; la [documentación de ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html) deberá corresponder a la versión instalada.
+El fabricante [declara compatibilidad con Python](https://acebott.com/es/stem-kits/explorer-series/acebott-omni-wheel-car-robot-starter-kit-collection/), y su [documentación del QD001](https://acebott.com/docs/qd001-smart-car-starter-kit-for-esp32/) describe el kit y sus funciones. Se identificaron ESP32-D0WD-V3 revisión 3.1 y 4 MB de flash. MicroPython ESP32_GENERIC 1.29.0 está instalado y se verificó su intérprete por USB. La referencia usada es la [documentación de ESP32 para 1.29](https://docs.micropython.org/en/v1.29.0/esp32/quickref.html). La aceptación de órdenes por software no demuestra giro de las ruedas.
 
-Las instrucciones de instalación, carga y ejecución se incorporarán cuando el entorno esté definido y comprobado con el robot.
+Las instrucciones de consola, carga y pruebas están en el [contexto vigente](docs/estado_sesion_2026-10-27.md) y en la guía del programa de la rama técnica.
 
 ## Conservación del firmware y control del equipo
 
-El grupo informó una prueba previa con la app y, al finalizar la sesión del 23/10, funcionamiento correcto con un firmware estable después de una restauración. Conservar o recuperar las funciones comprobadas es un criterio de la elección técnica. La preferencia por MicroPython sigue sujeta a evaluar compatibilidad y recuperación.
+El grupo informó una prueba previa con la app y, al finalizar la sesión del 23/10, funcionamiento correcto con un firmware estable después de una restauración. El 27/10 el usuario autorizó reemplazarlo por MicroPython y pidió omitir el respaldo del estado actual después de un intento de lectura fallido. El programa ACEBOTT quedó reemplazado; la aplicación del fabricante y el proyecto STA anterior no forman parte del Python activo.
 
-La etapa actual comprende documentación y desarrollo sin robot. El usuario dejó el equipo desconectado y pospuso el respaldo y comparación del firmware estable. Toda nueva conexión o lectura se coordinará porque puede reiniciar la placa. Cambiar firmware o ejecutar motores requiere autorización explícita.
+La etapa actual es diagnóstico de motores con programa Python cargado. Las pruebas realizadas terminaron detenidas y se indicó al usuario que podía desconectar y apagar el equipo. El estado físico después de esa indicación no se verificó. Confirmar conexión, alimentación y ruedas levantadas antes de nuevas pruebas; esta publicación no accede al robot.
 
-El respaldo ANTERIOR tiene dos lecturas completas de 4 MB con SHA-256 idéntico y verificación contra flash correcta. Se conserva en privado, con copias en dos discos locales. No acredita ser imagen de fábrica ni una copia del firmware estable posterior. La restauración funcional no se ensayó. El [procedimiento y sus límites](docs/procedimiento_respaldo_y_restauracion.md) explica qué falta antes de reemplazar el estado estable. Esta publicación documental no contiene volcados, claves ni credenciales.
+El respaldo ANTERIOR tiene dos lecturas completas de 4 MB con SHA-256 idéntico y verificación contra flash correcta. Se conserva en privado, con copias en dos discos locales. No acredita ser imagen de fábrica ni una copia del firmware estable posterior. No hay respaldo validado del estado inmediatamente anterior a instalar MicroPython y la restauración funcional no se ensayó. Ver [procedimiento y límites](docs/procedimiento_respaldo_y_restauracion.md) y [registro de instalación](docs/instalacion_micropython_2026-10-27.md). Esta publicación documental no contiene volcados, claves ni credenciales.
 
 ## Programación prevista
 
@@ -106,4 +108,4 @@ La programación deberá comprobarse tanto mediante verificaciones del software 
 
 El informe deberá incluir el código explicado, las conexiones reales, el procedimiento realizado, los datos, su análisis y conclusiones que respondan a los objetivos. La defensa requiere una presentación de apoyo y una demostración del prototipo, con participación de todos los integrantes.
 
-Todavía no hay comandos de typecheck, lint, tests o build configurados. Cuando se incorpore código se documentarán las verificaciones que correspondan al entorno elegido y las comprobaciones que requieran el equipo físico.
+La rama técnica incluye catorce pruebas locales ejecutables con `python -m unittest discover -s tests -v`. Se verificaron también archivos y arranque en el ESP32. Esas comprobaciones no acreditan movimiento físico; los motores siguen pendientes. Los comandos y evidencias están documentados en el contexto vigente.

@@ -1,5 +1,7 @@
 # Estado de continuidad — 23 de octubre de 2026
 
+> **Estado posterior, 27/10/2026:** MicroPython y el programa USB ya estan instalados por pedido del usuario; luces, musica y ultrasonico respondieron, pero no hubo giro visible de motores. Leer primero [el contexto vigente](estado_sesion_2026-10-27.md). Esta guia conserva el contexto de la etapa anterior.
+
 Este documento permite continuar desde otra computadora y separa lo comprobado de lo informado por el usuario.
 
 ## Estado al cerrar la sesión
