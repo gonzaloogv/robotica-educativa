@@ -1,5 +1,7 @@
 ﻿# Preparación de MicroPython
 
+Actualización 27/10/2026: MicroPython 1.29.0 ya está instalado y verificado por USB en el ESP32. El usuario autorizó reemplazar el programa ACEBOTT y luego indicó omitir el respaldo del estado actual. El respaldo anterior permanece conservado. Ver [registro de instalación](docs/instalacion_micropython_2026-10-27.md). El texto siguiente conserva el contexto de la preparación previa.
+
 Se revisaron README.md y CONTEXTO_PARA_CODEX_ACEBOTT_QD001.md de origin/documentacion (la rama mencionada como documentos).
 
 Proyecto: ACEBOTT QD001, ESP32 Max V1.0 y Car Shield V2.0. Objetivo: avance autónomo, detención ante obstáculos y registro USB/CSV para análisis estadístico. El control manual Wi-Fi funcionó según el grupo; autonomía y mediciones siguen pendientes.
