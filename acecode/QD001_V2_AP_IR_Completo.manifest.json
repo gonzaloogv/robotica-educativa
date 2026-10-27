@@ -1,0 +1,19 @@
+{
+  "source_file": "QD001_V2_APP_Oficial.sb3",
+  "source_sha256": "54a97fa9bc9de649e9b9f14a2b68b889f1acee1ddcef781499f1e0642499d1b4",
+  "output_file": "QD001_V2_AP_IR_Completo.sb3",
+  "output_sha256": "dc5fdd7593211656c2de48460880fdb751d8dd8593701bce282c8f20076d1b1c",
+  "original_blocks_preserved": true,
+  "changed_original_blocks": [
+    "[ETr;LR5kS]]O{+T7qh#",
+    "YE/i`^[w3:X^v;J#RURe",
+    "^^|./kF}A3Zm@{(W80pJ",
+    "7aWZm@O`e4;/KeF}6F+(",
+    "f$ytr~*QDxt?@A|J%,e|"
+  ],
+  "added_blocks": 107,
+  "network": "AP: ESP32-CAR; clave publica del ejemplo: 12345678",
+  "comments_folded_for_editor_import": true,
+  "hardware_uploaded": false,
+  "hardware_tested": false
+}

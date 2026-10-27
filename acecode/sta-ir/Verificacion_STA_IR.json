@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "project_file": "QD001_V2_STA_IR_Completo.sb3",
+  "sha256": "97c87f68f39519c7336d01cdcafab60e502d2b683037817ac6c64812e3d14ad1",
+  "network_mode": "STA",
+  "creates_AP": false,
+  "credentials": "Marcadores sin datos personales; completar en copia local",
+  "blocks": 549,
+  "tests": 17,
+  "tests_exit_code": 0,
+  "compilation": {
+    "exit_code": 0,
+    "generator": "ACECode 2.2.4 con adaptador local sin interfaz",
+    "fqbn": "esp32:esp32:esp32",
+    "platform": "esp32:esp32 3.2.0",
+    "program_bytes": 988826,
+    "program_maximum_bytes": 1310720,
+    "globals_bytes": 52184,
+    "dynamic_memory_maximum_bytes": 327680
+  },
+  "hardware_uploaded": false,
+  "hardware_tested": false,
+  "native_app_STA_IP_compatibility_verified": false,
+  "startup": "Espera Wi-Fi antes de iniciar el servidor de app; repeat() procesa IR durante la espera",
+  "generated_source_sha256": "365eeb4e3efcb245af3cf7159ebbc3664603db420d12a9cfea82ce8e39c47e8a",
+  "native_editor": {
+    "version": "2.2.4",
+    "project_opened": "QD001_V2_STA_IR_Completo.sb3",
+    "automatic_generation_visually_checked": true,
+    "generated_lines": 535,
+    "checked": [
+      "ACB_IR, WiFi, LineTrack, Servo, Ultrasonic, SingleLED y Buzzer presentes",
+      "apClose, initSTA con marcadores, staStatus == 1 y staIP",
+      "CONTROL_IR y modo de movimiento",
+      "setup, tarea del servidor y repeat al final"
+    ],
+    "firmware_uploaded": false,
+    "reason_for_previous_partial_generation": "Error de posicionamiento de comentarios desplegados durante la importacion; se conservan plegados",
+    "original_modes_retained": true
+  },
+  "published_project_file": "../versiones-ap-y-sta/QD001_V2_STA_IR_Completo.sb3"
+}

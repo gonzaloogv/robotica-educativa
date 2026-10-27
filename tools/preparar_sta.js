@@ -93,7 +93,7 @@ assert.equal(matches.length, 1, 'Se esperaba un solo inicio AP en el programa co
 const {targetIndex, id} = matches[0], target = project.targets[targetIndex], blocks = target.blocks;
 const ap = blocks[id], parentId = ap.parent, nextId = ap.next;
 assert.equal(blocks[parentId].next, id); assert(nextId && blocks[nextId]);
-const names = ['sta_close_ap', 'sta_log_connect', 'sta_wait_connected', 'sta_status', 'sta_log_ip_label', 'sta_log_ip', 'sta_ip'];
+const names = ['sta_close_ap', 'sta_log_connect', 'sta_wait_connected', 'sta_connected', 'sta_status', 'sta_log_ip_label', 'sta_log_ip', 'sta_ip'];
 for (const key of names) assert(!blocks[key], 'ID STA ya existente');
 function block(opcode, parent, next, inputs = {}, fields = {}) {
   return {opcode, next, parent, inputs, fields, shadow: false, topLevel: false};
@@ -105,8 +105,10 @@ blocks.sta_log_connect = block('log', 'sta_close_ap', id,
 ap.opcode = 'CONNECT_WIFI'; ap.fields = {}; ap.parent = 'sta_log_connect'; ap.next = 'sta_wait_connected';
 ap.inputs.NAME = [1, [10, 'CONFIGURAR_WIFI_2_4_GHZ']];
 ap.inputs.PASSWORD = [1, [10, 'CONFIGURAR_CLAVE_WIFI']];
-blocks.sta_wait_connected = block('control_wait_until', id, 'sta_log_ip_label', {CONDITION: [2, 'sta_status']});
-blocks.sta_status = block('WIFI_INFO', 'sta_wait_connected', null, {}, {INFO: ['STATUS', null]});
+blocks.sta_wait_connected = block('control_wait_until', id, 'sta_log_ip_label', {CONDITION: [2, 'sta_connected']});
+blocks.sta_connected = block('operator_equals', 'sta_wait_connected', null,
+  {OPERAND1: [3, 'sta_status', [10, '']], OPERAND2: [1, [10, '1']]});
+blocks.sta_status = block('WIFI_INFO', 'sta_connected', null, {}, {INFO: ['INFO', null]});
 blocks.sta_log_ip_label = block('log', 'sta_wait_connected', 'sta_log_ip',
   {STRING: [1, [10, 'IP del robot en la red local:']]}, {BAUD_RATE: ['115200', null]});
 blocks.sta_log_ip = block('log', 'sta_log_ip_label', nextId,

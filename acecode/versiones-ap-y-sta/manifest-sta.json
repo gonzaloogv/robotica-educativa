@@ -1,0 +1,24 @@
+{
+  "source_file": "QD001_V2_AP_IR_Completo.sb3",
+  "source_sha256": "dc5fdd7593211656c2de48460880fdb751d8dd8593701bce282c8f20076d1b1c",
+  "output_file": "QD001_V2_STA_IR_Completo.sb3",
+  "output_sha256": "97c87f68f39519c7336d01cdcafab60e502d2b683037817ac6c64812e3d14ad1",
+  "source_blocks": 541,
+  "output_blocks": 549,
+  "network": "STA; AP cerrado; espera conexion y muestra IP a 115200",
+  "credentials": "Solo marcadores, sin datos reales",
+  "preserved_modes": [
+    "avoidance",
+    "roundTrack",
+    "led",
+    "follow",
+    "8track",
+    "move",
+    "buzzer"
+  ],
+  "unrelated_original_blocks_unchanged": true,
+  "assets_unchanged": true,
+  "hardware_uploaded": false,
+  "hardware_tested": false,
+  "note": "Los GPIO y la logica del fabricante se conservan. Preparacion de archivo, no prueba del robot."
+}

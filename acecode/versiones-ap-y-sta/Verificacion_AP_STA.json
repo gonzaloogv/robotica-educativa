@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-24",
+  "branch": "trabajo/acecode-completo",
+  "status": "Candidatas para pruebas fisicas",
+  "delivery": "Dos proyectos editables ACECode, AP + IR y STA + IR",
+  "files": {
+    "QD001_V2_AP_IR_Completo.sb3": {
+      "sha256": "dc5fdd7593211656c2de48460880fdb751d8dd8593701bce282c8f20076d1b1c",
+      "bytes": 66877,
+      "blocks": 541,
+      "zip_crc": "OK",
+      "identical_to_previous_verified_version": true
+    },
+    "QD001_V2_STA_IR_Completo.sb3": {
+      "sha256": "97c87f68f39519c7336d01cdcafab60e502d2b683037817ac6c64812e3d14ad1",
+      "bytes": 66812,
+      "blocks": 549,
+      "zip_crc": "OK",
+      "identical_to_previous_verified_version": true
+    }
+  },
+  "automated_checks": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "tested_delivery_files_directly": true,
+    "all_passed": true
+  },
+  "previous_reference_compilation": {
+    "date": "2026-10-23",
+    "repeated_for_this_delivery": false,
+    "project_and_source_hashes_match_previous_records": true,
+    "AP": {
+      "exit_code": 0,
+      "fqbn": "esp32:esp32:esp32",
+      "platform": "esp32:esp32 3.2.0",
+      "toolchain_source": "arduino.7z incluido en ACECode 2.2.4",
+      "program_bytes": 987854,
+      "program_maximum_bytes": 1310720,
+      "global_variables_bytes": 52184,
+      "dynamic_memory_maximum_bytes": 327680,
+      "command": "arduino-cli compile -b esp32:esp32:esp32 --config-file CONFIG_LOCAL --libraries BIBLIOTECAS_ACECode --build-path DESTINO_LOCAL acecode/codigo_generado/QD001Completo"
+    },
+    "STA": {
+      "exit_code": 0,
+      "generator": "ACECode 2.2.4 con adaptador local sin interfaz",
+      "fqbn": "esp32:esp32:esp32",
+      "platform": "esp32:esp32 3.2.0",
+      "program_bytes": 988826,
+      "program_maximum_bytes": 1310720,
+      "globals_bytes": 52184,
+      "dynamic_memory_maximum_bytes": 327680
+    }
+  },
+  "previous_STA_copy": {
+    "path": "acecode/sta-ir/QD001_V2_STA_IR_Completo.sb3",
+    "sha256": "e61f56fe24cf16822ff599bff211e10721299e2fc81d1bc9fa79eacaaf6f14b9",
+    "matches_previous_record": false,
+    "modified_by_this_delivery": false
+  },
+  "hardware_uploaded": false,
+  "hardware_tested": false,
+  "native_app_STA_IP_compatibility_verified": false,
+  "exclusive_phone_controller_implemented": false,
+  "automatic_AP_STA_fallback": false,
+  "credentials": {
+    "AP": {
+      "ssid": "ESP32-CAR",
+      "password": "12345678",
+      "kind": "Clave publica del ejemplo oficial"
+    },
+    "STA": "Solo marcadores; completar en una copia *.local.sb3"
+  },
+  "publication_validation": {
+    "date": "2026-10-27",
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "default_tests_target_delivery_files": true,
+    "python_syntax": "OK",
+    "node_syntax": "OK",
+    "generator_reproduction": "AP y STA identicas byte a byte a la entrega",
+    "zip_crc": "OK",
+    "hardware_uploaded": false,
+    "reference_compilation_repeated": false,
+    "pending_improvements": "Mejoras_pendientes.md"
+  }
+}

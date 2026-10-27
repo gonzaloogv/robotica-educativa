@@ -1,5 +1,12 @@
 # QD001 V2 completo en modo STA
 
+Esta guía corresponde a la variante STA anterior, que se conserva sin cambios.
+Para STA con mando infrarrojo y todos los bloques de la ampliación, usar
+[QD001_V2_STA_IR_Completo.sb3](versiones-ap-y-sta/QD001_V2_STA_IR_Completo.sb3) y
+[su guía de configuración](sta-ir/README.md).
+Para usar la red propia `ESP32-CAR` y el mando infrarrojo, abrir el
+[proyecto AP + IR y su guía](PROYECTO_COMPLETO.md).
+
 Abrir `QD001_V2_STA_Completo.sb3` con ACECode. Se adaptó el ejemplo instalado con ACECode 2.2.4: `4.4.2APPControlCar2(Final program).sb3`.
 
 ## Configuración

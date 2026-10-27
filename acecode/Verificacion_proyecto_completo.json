@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-23",
+  "branch": "trabajo/acecode-completo",
+  "files": {
+    "acecode/QD001_V2_AP_IR_Completo.sb3": {
+      "bytes": 66877,
+      "sha256": "dc5fdd7593211656c2de48460880fdb751d8dd8593701bce282c8f20076d1b1c"
+    },
+    "acecode/fuentes/QD001_V2_APP_Oficial.sb3": {
+      "bytes": 64139,
+      "sha256": "54a97fa9bc9de649e9b9f14a2b68b889f1acee1ddcef781499f1e0642499d1b4"
+    },
+    "acecode/fuentes/QD001_V2_IR_Oficial.sb3": {
+      "bytes": 46975,
+      "sha256": "ed21c96a80d0ec8bdd5c4c65a669b0fc6e2134612ca28348a067823821e97d5b"
+    },
+    "acecode/codigo_generado/QD001Completo/QD001Completo.ino": {
+      "bytes": 11271,
+      "sha256": "ae3cb8babf8e84e46d5f00b7d048e1a3371c5f4ac7032bb3250dbd48b5e109d8"
+    }
+  },
+  "project_validation": {
+    "zip_crc": "OK",
+    "tests": 12,
+    "tests_exit_code": 0,
+    "original_blocks": 434,
+    "added_blocks": 107,
+    "total_blocks": 541,
+    "assets_unchanged": true,
+    "original_opcodes_fields_mutations_unchanged": true,
+    "total_suite_tests": 17,
+    "comments_folded_for_import": true
+  },
+  "generation": {
+    "method": "Generadores oficiales Arduino y extensiones de ACECode 2.2.4 con adaptador local sin interfaz",
+    "acecode_gui_opened": false,
+    "runtime": "Node.js 24.22.1",
+    "libraries_modified": false,
+    "sta_variant_opened_in_gui": true
+  },
+  "compilation": {
+    "exit_code": 0,
+    "fqbn": "esp32:esp32:esp32",
+    "platform": "esp32:esp32 3.2.0",
+    "toolchain_source": "arduino.7z incluido en ACECode 2.2.4",
+    "program_bytes": 987854,
+    "program_maximum_bytes": 1310720,
+    "global_variables_bytes": 52184,
+    "dynamic_memory_maximum_bytes": 327680,
+    "command": "arduino-cli compile -b esp32:esp32:esp32 --config-file CONFIG_LOCAL --libraries BIBLIOTECAS_ACECode --build-path DESTINO_LOCAL acecode/codigo_generado/QD001Completo"
+  },
+  "hardware": {
+    "serial_port_opened": false,
+    "firmware_uploaded": false,
+    "motors_executed": false,
+    "wifi_connection_tested": false,
+    "physical_functions_tested": false
+  },
+  "network": {
+    "mode": "AP",
+    "ssid": "ESP32-CAR",
+    "password": "12345678",
+    "password_kind": "Clave publica del ejemplo oficial; no es una credencial personal"
+  },
+  "ir": {
+    "input_pin_from_official_example": 4,
+    "speed_from_official_example": 255,
+    "nominal_timeout_ms_from_official_example": 100,
+    "return_to_app": "# en el mando, despues STOP en la app",
+    "measured_latency": null
+  },
+  "limits": [
+    "El adaptador comprueba generacion y compilacion; no reemplaza abrir el SB3 en ACECode y probar la unidad.",
+    "Las esperas de los modos y melodias originales pueden demorar la atencion al mando.",
+    "Los parametros de linea, tiempos y velocidades son del ejemplo; falta calibracion real.",
+    "No se determino la causa del incidente Wi-Fi; el grupo no recuerda secuencia ni mensaje de carga."
+  ]
+}
