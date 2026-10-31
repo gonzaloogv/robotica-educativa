@@ -50,3 +50,29 @@ Se verificaron el contenido, los destinos y el texto visible de los enlaces, la 
 - Se eliminó una de las dos URL idénticas bajo la Tabla 6 (página 24).
 - Se retiró el punto anterior a la cita de ACEBOTT en 5.3 y D.4 (páginas 6 y 28).
 - Se mantuvieron el resto del contenido, el inventario, las fotografías y las ecuaciones.
+
+
+## Actualización del 30 de octubre de 2026
+
+- Por decisión del grupo y con autorización de la docente, el informe pasa a utilizar y explicar el programa de fábrica de ACEBOTT. Se ajustaron título, introducción, pregunta, objetivos, marco teórico, desarrollo, metodología y anexos para mantener ese alcance.
+- Se sustituyeron las propuestas de programación en Python/MicroPython y de análisis con sus bibliotecas por el estudio del programa del fabricante y el registro en planillas con hoja de cálculo. Se retiraron las dos referencias de MicroPython porque ya no se citan ni forman parte de la tecnología elegida. El resto de las fuentes se conserva.
+- Se incorporó la confirmación del grupo de que el 27/10 el robot funcionó hasta agotarse las baterías. No se agregó un tiempo de autonomía ni una causa técnica del diagnóstico intermedio.
+- Se corrigió el registro del 27/10 para distinguir el cierre confirmado, la nueva decisión académica y los antecedentes técnicos de las pruebas.
+- Se conservan autores, docente, fecha de presentación, inventario de 34 entradas, ocho tablas, ocho fotografías y siete ecuaciones. Las secciones 7 y 8 mantienen pendientes los ensayos y la conclusión experimental.
+- El anexo A queda preparado para completar la identificación exacta y la explicación del código del fabricante. No se atribuyen al grupo funciones autónomas implementadas ni resultados experimentales.
+- Se actualizan índice, paginación y PDF tras la edición. No se modifica firmware ni se accede a puertos del robot.
+
+
+## Comparación y revisión del programa de control
+
+Se comparó el PDF de 33 páginas con el Word aportado `Informe_Robotica_Educativa_borrador_fabrica.docx`, cuya exportación tenía 35 páginas y 16 páginas de desarrollo y bibliografía. El Word aportado se eligió como base por su metodología de observación, video y planillas, más adecuada para evaluar el programa sin depender de un registro interno de datos. Se conservaron los archivos aportados sin modificarlos.
+
+- Se retiraron del borrador las menciones al permiso docente y la denominación «programa de fábrica», también en los metadatos; se utiliza «programa de control» y se conservan las fuentes técnicas.
+- Se identificó el procedimiento confirmado por el grupo: ACECode, firmware QD y programa final 4.4.2APPControlCar2. La carpeta en español contiene una copia de referencia .sb3 y una ruta Arduino separada.
+- Se explicó la rutina de evasión a partir del proyecto de referencia y se distinguió el umbral nominal de 25 cm de la distancia física que se medirá.
+- Se retiró la afirmación no sustentada de control IR integrado al programa final y se distinguieron los ejemplos IR separados del paquete.
+- Se precisó la primera detención como variable de medición, sin mezclarla con un giro o una posición final. Se mantiene el registro de fallos y la evaluación de evasión sin contacto ni intervención manual.
+- Se trasladó el detalle repetido de la incidencia al anexo A y se reformuló como práctica futura el registro sistemático de las clases, que no estaba confirmado como actividad ya realizada.
+- Se recuperó la explicación válida del control PWM del servomotor y la aclaración de sus especificaciones que faltaban en el Word aportado.
+- Se conservan el inventario completo, las ocho fotografías, las ocho tablas, las siete ecuaciones y los resultados experimentales pendientes. Se actualizan el índice y la exportación PDF.
+- Se comprobó la nueva referencia de software de ACEBOTT: https://acebott.com/es/software/. No se modificó firmware ni se ejecutaron instaladores o programas del robot.

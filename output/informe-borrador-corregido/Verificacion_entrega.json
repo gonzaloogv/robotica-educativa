@@ -1,25 +1,35 @@
 {
   "status": "passed",
-  "pages": 33,
+  "updated_on": "2026-10-30",
+  "pages": 34,
   "inventory_entries": 34,
   "photographs": 8,
   "equations": 7,
-  "bibliography_entries": 24,
+  "bibliography_entries": 23,
   "contents_entries": 35,
   "development_and_bibliography_pages": 15,
-  "pdf_external_link_annotations": 52,
-  "unique_external_targets": 24,
-  "docx_sha256": "bc86e569652eaafa751c84b4baf036c14a1ea7b76bdf631ff532d1c887382ed3",
-  "pdf_sha256": "612132ca4f86f15da4633e0f60fb3596288dcad7a28eedca38161afee57b9022",
-  "source_docx_sha256": "683d7e5650476007897d6bc1a98397d90981e250ad420256921779f8bf5015e1",
-  "source_pdf_sha256": "6494abc3411746acc40c4bb979f6350ec130a17ae25b662955fac9ceadb17218",
-  "source_files_preserved": true,
+  "pdf_external_link_annotations": 50,
+  "unique_external_targets": 23,
+  "docx_sha256": "eeaaecd18b2c96389037b513f1448d391604cb911d9d8fbab2fbed2b527d7032",
+  "pdf_sha256": "8ae9e7fc6cd3cd32dc29fd307baa08c182777e3c7b719536cce1e1432cb1f9a0",
+  "previous_draft_docx_sha256": "3f0f16a40c9e3768b3d4102655eb7eabf510c9ec5c5982c67b3b3d3e22d6f4e3",
   "firmware_modifications": "none",
-  "new_experimental_data": "none",
+  "serial_port_access": "none",
+  "new_experimental_data": "none; only user-confirmed qualitative operation until battery depletion",
+  "selected_software": "QD001 control project 4.4.2APPControlCar2 loaded with ACECode",
+  "python_and_micropython_mentions_in_draft": 0,
+  "inventory_equations_and_photographs_preserved": true,
+  "methodology_tables_updated": true,
+  "source_comparison": {
+    "previous_pdf_pages": 33,
+    "incoming_word_render_pages": 35,
+    "incoming_development_and_bibliography_pages": 16,
+    "chosen_content_base": "user supplied Word with verified corrections"
+  },
   "fonts": {
-    "BAAAAA+Arial-BoldMT": 664,
-    "CAAAAA+ArialMT": 35267,
-    "DAAAAA+Arial-BoldMT": 1573,
+    "BAAAAA+Arial-BoldMT": 703,
+    "CAAAAA+ArialMT": 35996,
+    "DAAAAA+Arial-BoldMT": 1575,
     "EAAAAA+TimesNewRomanPS-ItalicMT": 102,
     "FAAAAA+TimesNewRomanPSMT": 40,
     "GAAAAA+OpenSymbol": 40
@@ -28,16 +38,16 @@
     {
       "page": 1,
       "footer": "",
-      "nonspace_characters": 437,
+      "nonspace_characters": 413,
       "bounds": [
         70.95,
-        512.31
+        511.18
       ]
     },
     {
       "page": 2,
       "footer": "",
-      "nonspace_characters": 3653,
+      "nonspace_characters": 3624,
       "bounds": [
         70.95,
         524.52
@@ -46,7 +56,7 @@
     {
       "page": 3,
       "footer": "3",
-      "nonspace_characters": 1430,
+      "nonspace_characters": 1529,
       "bounds": [
         70.95,
         524.62
@@ -55,7 +65,7 @@
     {
       "page": 4,
       "footer": "4",
-      "nonspace_characters": 1276,
+      "nonspace_characters": 1329,
       "bounds": [
         70.95,
         524.62
@@ -64,7 +74,7 @@
     {
       "page": 5,
       "footer": "5",
-      "nonspace_characters": 1729,
+      "nonspace_characters": 1800,
       "bounds": [
         70.95,
         524.62
@@ -73,7 +83,7 @@
     {
       "page": 6,
       "footer": "6",
-      "nonspace_characters": 1377,
+      "nonspace_characters": 1423,
       "bounds": [
         70.95,
         524.62
@@ -82,7 +92,7 @@
     {
       "page": 7,
       "footer": "7",
-      "nonspace_characters": 1309,
+      "nonspace_characters": 1375,
       "bounds": [
         70.95,
         524.62
@@ -91,7 +101,7 @@
     {
       "page": 8,
       "footer": "8",
-      "nonspace_characters": 1489,
+      "nonspace_characters": 1237,
       "bounds": [
         70.95,
         524.62
@@ -100,7 +110,7 @@
     {
       "page": 9,
       "footer": "9",
-      "nonspace_characters": 1199,
+      "nonspace_characters": 1220,
       "bounds": [
         70.95,
         524.62
@@ -109,7 +119,7 @@
     {
       "page": 10,
       "footer": "10",
-      "nonspace_characters": 1813,
+      "nonspace_characters": 1891,
       "bounds": [
         70.95,
         524.62
@@ -118,7 +128,7 @@
     {
       "page": 11,
       "footer": "11",
-      "nonspace_characters": 1548,
+      "nonspace_characters": 1643,
       "bounds": [
         70.95,
         524.62
@@ -127,7 +137,7 @@
     {
       "page": 12,
       "footer": "12",
-      "nonspace_characters": 1728,
+      "nonspace_characters": 1556,
       "bounds": [
         70.95,
         524.62
@@ -136,7 +146,7 @@
     {
       "page": 13,
       "footer": "13",
-      "nonspace_characters": 1251,
+      "nonspace_characters": 1292,
       "bounds": [
         70.95,
         524.62
@@ -145,7 +155,7 @@
     {
       "page": 14,
       "footer": "14",
-      "nonspace_characters": 501,
+      "nonspace_characters": 493,
       "bounds": [
         70.95,
         524.62
@@ -154,7 +164,7 @@
     {
       "page": 15,
       "footer": "15",
-      "nonspace_characters": 1591,
+      "nonspace_characters": 1569,
       "bounds": [
         70.95,
         524.62
@@ -163,7 +173,7 @@
     {
       "page": 16,
       "footer": "16",
-      "nonspace_characters": 1532,
+      "nonspace_characters": 1485,
       "bounds": [
         70.95,
         524.62
@@ -172,7 +182,7 @@
     {
       "page": 17,
       "footer": "17",
-      "nonspace_characters": 908,
+      "nonspace_characters": 731,
       "bounds": [
         70.95,
         524.62
@@ -181,7 +191,7 @@
     {
       "page": 18,
       "footer": "18",
-      "nonspace_characters": 1057,
+      "nonspace_characters": 1386,
       "bounds": [
         70.95,
         524.62
@@ -190,7 +200,7 @@
     {
       "page": 19,
       "footer": "19",
-      "nonspace_characters": 457,
+      "nonspace_characters": 525,
       "bounds": [
         70.95,
         524.62
@@ -199,7 +209,7 @@
     {
       "page": 20,
       "footer": "20",
-      "nonspace_characters": 313,
+      "nonspace_characters": 457,
       "bounds": [
         70.95,
         524.62
@@ -208,7 +218,7 @@
     {
       "page": 21,
       "footer": "21",
-      "nonspace_characters": 270,
+      "nonspace_characters": 313,
       "bounds": [
         70.95,
         524.62
@@ -217,7 +227,7 @@
     {
       "page": 22,
       "footer": "22",
-      "nonspace_characters": 323,
+      "nonspace_characters": 270,
       "bounds": [
         70.95,
         524.62
@@ -226,7 +236,7 @@
     {
       "page": 23,
       "footer": "23",
-      "nonspace_characters": 688,
+      "nonspace_characters": 330,
       "bounds": [
         70.95,
         524.62
@@ -235,7 +245,7 @@
     {
       "page": 24,
       "footer": "24",
-      "nonspace_characters": 530,
+      "nonspace_characters": 688,
       "bounds": [
         70.95,
         524.62
@@ -244,7 +254,7 @@
     {
       "page": 25,
       "footer": "25",
-      "nonspace_characters": 1161,
+      "nonspace_characters": 530,
       "bounds": [
         70.95,
         524.62
@@ -253,7 +263,7 @@
     {
       "page": 26,
       "footer": "26",
-      "nonspace_characters": 1177,
+      "nonspace_characters": 1161,
       "bounds": [
         70.95,
         524.62
@@ -262,7 +272,7 @@
     {
       "page": 27,
       "footer": "27",
-      "nonspace_characters": 1596,
+      "nonspace_characters": 1177,
       "bounds": [
         70.95,
         524.62
@@ -271,7 +281,7 @@
     {
       "page": 28,
       "footer": "28",
-      "nonspace_characters": 1410,
+      "nonspace_characters": 1596,
       "bounds": [
         70.95,
         524.62
@@ -280,7 +290,7 @@
     {
       "page": 29,
       "footer": "29",
-      "nonspace_characters": 1010,
+      "nonspace_characters": 1374,
       "bounds": [
         70.95,
         524.62
@@ -289,7 +299,7 @@
     {
       "page": 30,
       "footer": "30",
-      "nonspace_characters": 1218,
+      "nonspace_characters": 1010,
       "bounds": [
         70.95,
         524.62
@@ -298,7 +308,7 @@
     {
       "page": 31,
       "footer": "31",
-      "nonspace_characters": 982,
+      "nonspace_characters": 1324,
       "bounds": [
         70.95,
         524.62
@@ -307,7 +317,7 @@
     {
       "page": 32,
       "footer": "32",
-      "nonspace_characters": 258,
+      "nonspace_characters": 982,
       "bounds": [
         70.95,
         524.62
@@ -316,6 +326,15 @@
     {
       "page": 33,
       "footer": "33",
+      "nonspace_characters": 258,
+      "bounds": [
+        70.95,
+        524.62
+      ]
+    },
+    {
+      "page": 34,
+      "footer": "34",
       "nonspace_characters": 465,
       "bounds": [
         70.95,
@@ -323,8 +342,185 @@
       ]
     }
   ],
+  "contents": [
+    {
+      "title": "3. Introducción",
+      "anchor": "section_1",
+      "page": 3
+    },
+    {
+      "title": "4. Planteamiento del problema y objetivos",
+      "anchor": "section_2",
+      "page": 4
+    },
+    {
+      "title": "4.1 Problema",
+      "anchor": "section_3",
+      "page": 4
+    },
+    {
+      "title": "4.2 Objetivo general",
+      "anchor": "section_4",
+      "page": 4
+    },
+    {
+      "title": "4.3 Objetivos específicos",
+      "anchor": "section_5",
+      "page": 4
+    },
+    {
+      "title": "5. Marco teórico",
+      "anchor": "section_6",
+      "page": 5
+    },
+    {
+      "title": "5.1 Robótica educativa",
+      "anchor": "section_7",
+      "page": 5
+    },
+    {
+      "title": "5.2 Control del ESP32 mediante ACECode",
+      "anchor": "section_8",
+      "page": 5
+    },
+    {
+      "title": "5.3 Sensores y actuadores",
+      "anchor": "section_9",
+      "page": 5
+    },
+    {
+      "title": "5.4 Medición, error e incertidumbre",
+      "anchor": "section_10",
+      "page": 6
+    },
+    {
+      "title": "5.5 Estadística descriptiva",
+      "anchor": "section_11",
+      "page": 6
+    },
+    {
+      "title": "5.6 Probabilidad e intervalos de confianza",
+      "anchor": "section_12",
+      "page": 7
+    },
+    {
+      "title": "5.7 Regresión lineal y correlación",
+      "anchor": "section_13",
+      "page": 7
+    },
+    {
+      "title": "5.8 Antecedentes",
+      "anchor": "section_14",
+      "page": 8
+    },
+    {
+      "title": "6. Desarrollo técnico de la investigación",
+      "anchor": "section_15",
+      "page": 9
+    },
+    {
+      "title": "6.1 Descripción del prototipo",
+      "anchor": "section_16",
+      "page": 9
+    },
+    {
+      "title": "6.2 Componentes y materiales",
+      "anchor": "section_17",
+      "page": 9
+    },
+    {
+      "title": "6.3 Experiencia de armado y puesta en marcha",
+      "anchor": "section_18",
+      "page": 10
+    },
+    {
+      "title": "6.4 Programa de control",
+      "anchor": "section_19",
+      "page": 10
+    },
+    {
+      "title": "6.5 Procedimiento de comprobación",
+      "anchor": "section_20",
+      "page": 11
+    },
+    {
+      "title": "6.6 Ventajas, limitaciones y medidas de seguridad",
+      "anchor": "section_21",
+      "page": 12
+    },
+    {
+      "title": "7. Resultados y análisis",
+      "anchor": "section_22",
+      "page": 13
+    },
+    {
+      "title": "8. Conclusión",
+      "anchor": "section_23",
+      "page": 14
+    },
+    {
+      "title": "9. Bibliografía y fuentes consultadas",
+      "anchor": "section_24",
+      "page": 15
+    },
+    {
+      "title": "10. Anexos",
+      "anchor": "section_25",
+      "page": 18
+    },
+    {
+      "title": "Anexo A. Programa y configuración",
+      "anchor": "annex_a",
+      "page": 18
+    },
+    {
+      "title": "Anexo B. Datos originales y trazabilidad",
+      "anchor": "annex_b",
+      "page": 18
+    },
+    {
+      "title": "Anexo C. Fotografías y experiencia de armado",
+      "anchor": "annex_c",
+      "page": 20
+    },
+    {
+      "title": "Anexo D. Documentación técnica del montaje",
+      "anchor": "annex_d",
+      "page": 24
+    },
+    {
+      "title": "D.1 Inventario de componentes del kit ACEBOTT QD001",
+      "anchor": "d_inventory",
+      "page": 24
+    },
+    {
+      "title": "D.2 Cotejo del inventario y diferencias de documentación",
+      "anchor": "d_comparison",
+      "page": 26
+    },
+    {
+      "title": "D.3 Identificación visual y documentación pendiente",
+      "anchor": "d_visual",
+      "page": 27
+    },
+    {
+      "title": "D.4 Fichas técnicas y alcance de sus especificaciones",
+      "anchor": "d_specs",
+      "page": 28
+    },
+    {
+      "title": "D.5 Fotografías de montaje y alimentación",
+      "anchor": "d_photos",
+      "page": 33
+    },
+    {
+      "title": "Anexo E. Cálculos y análisis reproducible",
+      "anchor": "annex_e",
+      "page": 34
+    }
+  ],
   "visual_review": {
-    "previous_full_review_pages": [
+    "pages": [
       1,
       2,
       3,
@@ -357,23 +553,9 @@
       30,
       31,
       32,
-      33
+      33,
+      34
     ],
-    "reinspected_pages": [
-      6,
-      24,
-      28
-    ],
-    "unchanged_rendered_pages": 30,
-    "method": "Se compararon las 33 imágenes exportadas con la entrega revisada anteriormente. Las 30 páginas sin cambios tienen SHA-256 idéntico; las páginas 6, 24 y 28 se inspeccionaron visualmente después de los dos ajustes."
-  },
-  "targeted_changes": {
-    "duplicate_url_removed_page": 24,
-    "citation_punctuation_corrected_pages": [
-      6,
-      28
-    ],
-    "pagination_unchanged": true,
-    "other_paragraphs_and_tables_unchanged": true
+    "method": "Inspección visual de todas las páginas finales; verificación de índice, fórmulas, tablas, fotografías, márgenes, numeración y enlaces."
   }
 }
